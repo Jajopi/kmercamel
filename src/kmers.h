@@ -160,3 +160,8 @@ void AddComplements(std::vector<kmer_t>& kMerVec, size_k_max k){
     kMerVec.resize(n * 2);
     for (size_t i = 0; i < n; ++i) kMerVec[i + n] = ReverseComplement(kMerVec[i], k);
 }
+
+template<typename kmer_t, typename size_k_max>
+kmer_t JoinKmers(kmer_t kmer1, kmer_t kmer2, size_k_max offset){
+    return (kmer1 << offset * 2) + BitSuffix(kmer2, offset);
+}

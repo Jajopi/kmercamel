@@ -34,7 +34,7 @@ class FailureIndex {
         for (size_n_max i = 0; i < N; ++i) first_row[i] = search(kMers[i], K - 1);
     }
     
-    inline size_n_max search(kmer_t searched, size_k_max depth){
+    inline size_n_max search(kmer_t searched, size_k_max depth) const{
         searched = BitSuffix(searched, depth);
 
         if (depth < SPEEDUP_DEPTH){
@@ -65,25 +65,35 @@ class FailureIndex {
         }
         return INVALID_NODE;
     }
+
+    std::vector<kmer_t> get_kmer_subset(const std::vector<kmer_t> &kmers, const std::vector<size_n_max> &indexes){
+        size_n_max N = indexes.size();
+        std::vector<kmer_t> kMers(N);
+        for (size_n_max i = 0; i < N; ++i) kMers[i] = kmers[indexes[i]];
+        return kMers;
+    }
 public:
     static constexpr const size_n_max INVALID_NODE = std::numeric_limits<size_n_max>::max();
     
-    inline FailureIndex(const std::vector<kmer_t> &kmers, size_k_max k) :
-    kMers(kmers), N(kmers.size()), K(k) {
+    inline FailureIndex(const std::vector<kmer_t> &kmers, size_k_max k) : kMers(kmers), N(kmers.size()), K(k) {
         construct_index();
         WriteLog("Finished constructing index.");
     }
+    inline FailureIndex(const std::vector<kmer_t> &kmers, size_k_max k, const std::vector<size_n_max> &indexes) :
+            kMers(get_kmer_subset(kmers, indexes)), K(k){
+        construct_index();
+    }
 
-    inline size_n_max find_first_failure_leaf(kmer_t kmer, size_k_max depth){
+    inline size_n_max find_first_failure_leaf(kmer_t kmer, size_k_max depth) const{
         return search(kmer, depth);
     } 
 
-    inline size_n_max find_first_failure_leaf_by_index(size_n_max index, size_k_max depth){
+    inline size_n_max find_first_failure_leaf_by_index(size_n_max index, size_k_max depth) const{
         if (depth == K - 1) return first_row[index];
         return search(kMers[index], depth);
     }
 
-    inline bool failure_node_exists(size_n_max index, size_k_max depth){
+    inline bool failure_node_exists(size_n_max index, size_k_max depth) const{
         return find_first_failure_leaf_by_index(index, depth) != INVALID_NODE;
     }
 };

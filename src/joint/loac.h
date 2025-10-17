@@ -43,9 +43,10 @@ class LeafOnlyAC {
     void construct_complements();
     bool try_complete_leaf_phase_1(size_n_max leaf_to_connect); /// First iteration, "get simplitigs"
     bool try_complete_leaf_phase_2(size_n_max leaf_to_connect, size_k_max priority_drop_limit, stack_t &stack); /// Until threshold, TODO parallel, blind DFS
-    bool try_complete_leaf_phase_3(size_n_max leaf_to_connect, size_k_max priority_drop_limit, std::vector<size_n_max> &unused_leaves); /// Informed search
+    bool try_complete_leaf_phase_3(size_n_max leaf_to_connect, size_k_max priority_drop_limit, const std::vector<size_n_max> &unused_leaves, const FailureIndex<kmer_t, size_n_max> &unused_leaves_index); /// Informed search
     void try_push_failure_node_into_stack(stack_t &stack, size_k_max priority, size_k_max node_depth, size_n_max node_index, size_n_max last_leaf);
     void squeeze_sparse_list(std::vector<size_n_max>& sparse_list);
+    void connect_leaves(size_n_max uncompleted_leaf, size_n_max unused_leaf, size_n_max previous_leaf);
     void set_backtrack_path_for_leaf(size_n_max origin_leaf, size_n_max next_leaf);
     void print_remaining_stats(size_n_max leaves, size_k_max iterations, size_k_max phase, bool printHeader = false);
 
@@ -127,11 +128,76 @@ inline void LeafOnlyAC<kmer_t, size_n_max>::compute_result() {
     /// Phase 2
     {
         stack_t stack; // stack.reserve() /// TODO based on phase threshold
-        for (priority_drop_limit = 2; priority_drop_limit <= max_priority_drop; ++priority_drop_limit){
+        // size_k_max PHASE_2_MAX_DROP = 3;
+        size_k_max PHASE_2_MAX_DROP = PENALTY + 1;
+        // size_k_max PHASE_2_MAX_DROP = max_priority_drop;
+        for (priority_drop_limit = 2; priority_drop_limit <= PHASE_2_MAX_DROP; ++priority_drop_limit){
+            size_n_max uncompleted_leaf_count = uncompleted_leaves.size();
+            // if (uncompleted_leaf_count == 0) break;
+
+            print_remaining_stats(uncompleted_leaf_count, max_priority_drop - priority_drop_limit + 1, 2);
+
+            for (size_n_max i = 0; i < uncompleted_leaf_count; ++i){
+                if (next[uncompleted_leaves[i]] != INVALID_NODE) continue;
+
+                bool result = try_complete_leaf_phase_2(uncompleted_leaves[i], priority_drop_limit, stack);
+                if (result) uncompleted_leaves[i] = INVALID_NODE;
+            }
+
+            for (size_n_max i = 0; i < uncompleted_leaf_count; ++i){
+                if (uncompleted_leaves[i] == INVALID_NODE) continue;
+                if (next[uncompleted_leaves[i]] != INVALID_NODE) uncompleted_leaves[i] = INVALID_NODE;
+            }
+
+            squeeze_sparse_list(uncompleted_leaves);
+        }
+    }
+
+    /// Phase 3
+    std::vector<size_n_max> unused_leaves; unused_leaves.reserve(uncompleted_leaves.size()); /// Stays sorted
+    for (size_n_max i = 0; i < N; ++i){ if (!used[i]) unused_leaves.push_back(i); }
+    size_k_max PHASE_3_MAX_DROP = K - PENALTY + 1;
+
+    for (/* intentionally not reseting priority_drop_limit */; priority_drop_limit <= PHASE_3_MAX_DROP; ++priority_drop_limit){
+        size_n_max uncompleted_leaf_count = uncompleted_leaves.size();
+        size_n_max unused_leaf_count = unused_leaves.size();
+        if (uncompleted_leaf_count != unused_leaf_count) std::cerr << "!!!!!!!!!!!!!!!!!!! " << uncompleted_leaf_count << ' ' << unused_leaf_count << std::endl;
+        // if (uncompleted_leaf_count == 0) break;
+
+        print_remaining_stats(uncompleted_leaf_count, max_priority_drop - priority_drop_limit + 1, 3);
+
+        FailureIndex unused_leaves_index(kMers, K, unused_leaves);
+        for (size_n_max i = 0; i < uncompleted_leaf_count; ++i){
+            size_n_max leaf_index = uncompleted_leaves[i];
+
+            if (next[leaf_index] != INVALID_NODE){
+                uncompleted_leaves[i] = INVALID_NODE;
+                continue;
+            }
+            
+            // std::cerr << "a";
+            bool result = try_complete_leaf_phase_3(uncompleted_leaves[i], priority_drop_limit, unused_leaves, unused_leaves_index);
+            if (result) uncompleted_leaves[i] = INVALID_NODE;
+        }
+        // std::cerr << "e";
+        for (size_n_max i = 0; i < uncompleted_leaf_count; ++i){
+            if (uncompleted_leaves[i] != INVALID_NODE && next[uncompleted_leaves[i]] != INVALID_NODE) uncompleted_leaves[i] = INVALID_NODE;
+            if (used[unused_leaves[i]]) unused_leaves[i] = INVALID_NODE;
+        }
+
+        // std::cerr << "f";
+        squeeze_sparse_list(uncompleted_leaves);
+        squeeze_sparse_list(unused_leaves);
+    }
+
+    /// Phase 4 = Phase 2 unlimited
+    {
+        stack_t stack; // stack.reserve() /// TODO based on phase threshold
+        for (/* intentionally not reseting priority_drop_limit */; priority_drop_limit <= max_priority_drop; ++priority_drop_limit){
             size_n_max uncompleted_leaf_count = uncompleted_leaves.size();
             if (uncompleted_leaf_count == 0) break;
 
-            print_remaining_stats(uncompleted_leaf_count, max_priority_drop - priority_drop_limit + 1, 2);
+            print_remaining_stats(uncompleted_leaf_count, max_priority_drop - priority_drop_limit + 1, 4);
 
             for (size_n_max i = 0; i < uncompleted_leaf_count; ++i){
                 size_n_max leaf_index = uncompleted_leaves[i];
@@ -147,32 +213,6 @@ inline void LeafOnlyAC<kmer_t, size_n_max>::compute_result() {
 
             squeeze_sparse_list(uncompleted_leaves);
         }
-    }
-
-    /// Phase 3
-    std::vector<size_n_max> unused_leaves; unused_leaves.reserve(uncompleted_leaves.size()); /// Stays sorted
-    for (size_n_max i = 0; i < N; ++i){ if (!used[i]) unused_leaves.push_back(i); }
-
-    for (/* intentionally not reseting priority_drop_limit */; priority_drop_limit <= max_priority_drop; ++priority_drop_limit){
-        size_n_max uncompleted_leaf_count = uncompleted_leaves.size();
-        if (uncompleted_leaf_count == 0) break;
-
-        print_remaining_stats(uncompleted_leaf_count, max_priority_drop - priority_drop_limit + 1, 3);
-
-        for (size_n_max i = 0; i < uncompleted_leaf_count; ++i){
-            size_n_max leaf_index = uncompleted_leaves[i];
-
-            if (next[leaf_index] != INVALID_NODE){
-                uncompleted_leaves[i] = INVALID_NODE;
-                continue;
-            }
-
-            bool result = try_complete_leaf_phase_3(uncompleted_leaves[i], priority_drop_limit, unused_leaves);
-            if (result) uncompleted_leaves[i] = INVALID_NODE;
-        }
-
-        squeeze_sparse_list(uncompleted_leaves);
-        squeeze_sparse_list(unused_leaves);
     }
 
     RESULT_COMPUTED = true;
@@ -212,15 +252,7 @@ inline bool LeafOnlyAC<kmer_t, size_n_max>::try_complete_leaf_phase_1(size_n_max
         if (used[i] || components.are_connected(leaf_to_complete, i) || leaf_complement == i) continue;
 
         /// Suitable leaf found
-        used[i] = true;
-        next[leaf_to_complete] = i;
-        components.connect(leaf_to_complete, i); /// Second one pointing at the first one, order matters
-
-        if (COMPLEMENTS){ /// Connect complements inversely
-            used[leaf_complement] = true;
-            next[complements[i]] = leaf_complement;
-            components.connect(complements[i], leaf_complement);
-        }
+        connect_leaves(leaf_to_complete, i, leaf_to_complete);
         return true;
     }
     return false;
@@ -252,20 +284,7 @@ inline bool LeafOnlyAC<kmer_t, size_n_max>::try_complete_leaf_phase_2(size_n_max
                 }
 
                 /// Suitable leaf found
-                used[i] = true;
-                next[leaf_to_complete] = i;
-                components.connect(leaf_to_complete, i); /// Second one pointing at the first one, order matters
-
-                if (COMPLEMENTS){ /// Connect complements inversely
-                    used[leaf_complement] = true;
-                    next[complements[i]] = leaf_complement;
-                    components.connect(complements[i], leaf_complement);
-                }
-
-                if (last_leaf != leaf_to_complete){
-                    previous[i] = last_leaf;
-                    set_backtrack_path_for_leaf(leaf_to_complete, i);
-                }
+                connect_leaves(leaf_to_complete, i, last_leaf);
                 return true;
             }
             if (!skipped_unused) no_unused[leaf_index] = chain_depth;
@@ -305,7 +324,78 @@ inline bool LeafOnlyAC<kmer_t, size_n_max>::try_complete_leaf_phase_2(size_n_max
 }
 
 template <typename kmer_t, typename size_n_max>
-inline bool LeafOnlyAC<kmer_t, size_n_max>::try_complete_leaf_phase_3(size_n_max leaf_to_complete, size_k_max priority_drop_limit, std::vector<size_n_max> &unused_leaves) {
+inline bool LeafOnlyAC<kmer_t, size_n_max>::try_complete_leaf_phase_3(size_n_max leaf_to_complete, size_k_max priority_drop_limit, const std::vector<size_n_max> &unused_leaves, const FailureIndex<kmer_t, size_n_max> &unused_leaves_index) {
+    size_n_max UN = unused_leaves.size();
+    size_n_max leaf_complement = complements[leaf_to_complete];
+    
+    size_k_max max_penalizations;
+    if (OBJECTIVE == JointObjective::RUNS)  max_penalizations = (priority_drop_limit > PENALTY) ? 1 : 0;
+    if (OBJECTIVE == JointObjective::ZEROS) max_penalizations = priority_drop_limit / (PENALTY + 1);
+    for (size_k_max allowed_penalizations = max_penalizations + 1; allowed_penalizations-- > 0; /*intentionally blank*/){
+    // for (size_k_max allowed_penalizations = 0; allowed_penalizations <= max_penalizations; ++allowed_penalizations){
+        // std::cerr << allowed_penalizations << ' ';
+        size_k_max offset = priority_drop_limit - allowed_penalizations * PENALTY;
+
+        size_n_max first_leaf_index = unused_leaves_index.find_first_failure_leaf(kMers[leaf_to_complete], K - offset);
+        if (first_leaf_index == INVALID_NODE) continue;
+
+        kmer_t leaf_prefix = BitPrefix(kMers[unused_leaves[first_leaf_index]], K, K - offset);
+        for (size_n_max leaf_index = first_leaf_index; leaf_index < UN && leaf_prefix == BitPrefix(kMers[unused_leaves[leaf_index]], K, K - offset); ++leaf_index){
+            size_n_max i = unused_leaves[leaf_index];
+
+            if (used[i] || components.are_connected(leaf_to_complete, i) || leaf_complement == i) continue;
+
+            if (OBJECTIVE == JointObjective::RUNS && allowed_penalizations == 1){
+                /// Any leaf is suitable by definition, now try to minimize the number of zeros
+                size_n_max last_ok_leaf = leaf_to_complete;
+                for (size_k_max off = 1; off < offset; ++off){
+                    size_n_max actual_leaf = failureIndex.find_first_failure_leaf(JoinKmers(kMers[leaf_to_complete], kMers[i], off), K);
+                    if (actual_leaf != INVALID_NODE) last_ok_leaf = actual_leaf;
+                    else break;
+                }
+                size_n_max next_leaf = i, actual_leaf = INVALID_NODE, first_ok_leaf = INVALID_NODE;
+                for (size_k_max off = offset - 1; off > 0; --off){
+                    actual_leaf = failureIndex.find_first_failure_leaf(JoinKmers(kMers[leaf_to_complete], kMers[i], off), K);
+                    if (actual_leaf != INVALID_NODE){
+                        previous[next_leaf] = actual_leaf;
+                        next_leaf = actual_leaf;
+                    } else {
+                        if (first_ok_leaf == INVALID_NODE) first_ok_leaf = next_leaf;
+                    }
+                }
+                previous[next_leaf] = leaf_to_complete;
+                if (first_ok_leaf != INVALID_NODE) previous[first_ok_leaf] = last_ok_leaf;
+                
+                connect_leaves(leaf_to_complete, i, INVALID_NODE);
+                return true;
+            } else {
+                size_k_max penalizations = 0;
+                for (size_k_max off = 1; off < offset; ++off){
+                    if (failureIndex.find_first_failure_leaf(JoinKmers(kMers[leaf_to_complete], kMers[i], off), K) == INVALID_NODE){
+                        ++penalizations;
+                        if (penalizations > allowed_penalizations) break;
+                    }
+                }
+                if (penalizations <= allowed_penalizations){
+                    /// Suitable leaf found
+                    /// Set previous[] for leaves on the path
+                    /// Doing this in opposite order can lead to infinite loop if two same kmers are encountered
+                    size_n_max next_leaf = i, actual_leaf = INVALID_NODE;
+                    for (size_k_max off = offset - 1; off > 0; --off){
+                        actual_leaf = failureIndex.find_first_failure_leaf(JoinKmers(kMers[leaf_to_complete], kMers[i], off), K);
+                        if (actual_leaf != INVALID_NODE){
+                            previous[next_leaf] = actual_leaf;
+                            next_leaf = actual_leaf;
+                        }
+                    }
+                    previous[next_leaf] = leaf_to_complete;
+                    
+                    connect_leaves(leaf_to_complete, i, INVALID_NODE);
+                    return true;
+                }
+            }
+        }
+    }
     return false;
 }
 
@@ -347,6 +437,26 @@ inline void LeafOnlyAC<kmer_t, size_n_max>::squeeze_sparse_list(std::vector<size
     }
 
     sparse_list.resize(count - shift);
+}
+
+template <typename kmer_t, typename size_n_max>
+inline void LeafOnlyAC<kmer_t, size_n_max>::connect_leaves(size_n_max uncompleted_leaf, size_n_max unused_leaf, size_n_max previous_leaf){
+    used[unused_leaf] = true;
+    next[uncompleted_leaf] = unused_leaf;
+    components.connect(uncompleted_leaf, unused_leaf); /// Second one pointing at the first one, order matters
+
+    if (COMPLEMENTS){ /// Connect complements inversely
+        used[complements[uncompleted_leaf]] = true;
+        next[complements[unused_leaf]] = complements[uncompleted_leaf];
+        components.connect(complements[unused_leaf], complements[uncompleted_leaf]);
+    }
+
+    // std::cerr << "b";
+    if (uncompleted_leaf != previous_leaf){
+        if (previous_leaf != INVALID_NODE) previous[unused_leaf] = previous_leaf;
+        set_backtrack_path_for_leaf(uncompleted_leaf, unused_leaf);
+    }
+    // std::cerr << "c";
 }
 
 template <typename kmer_t, typename size_n_max>
