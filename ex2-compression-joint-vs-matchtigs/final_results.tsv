@@ -1,0 +1,1281 @@
+dataset	dataset_label	k	method	kmer_count	component	compressor	compression_setting	size_bytes	bits_per_kmer
+E._coli_pangenome	E. coli pangenome	15	eulertigs	188704463	mask	geco3	basic	10117469	0.4289233583203594
+E._coli_pangenome	E. coli pangenome	15	eulertigs	188704463	superstring	geco3	basic	110256027	4.674230815621992
+E._coli_pangenome	E. coli pangenome	15	eulertigs	188704463	mask	geco3	max	10089864	0.4277530627349285
+E._coli_pangenome	E. coli pangenome	15	eulertigs	188704463	superstring	geco3	max	108733618	4.609689300247234
+E._coli_pangenome	E. coli pangenome	15	eulertigs	188704463	mask	xz	basic	11327480	0.48022096859468555
+E._coli_pangenome	E. coli pangenome	15	eulertigs	188704463	superstring	xz	basic	115984228	4.917074081072475
+E._coli_pangenome	E. coli pangenome	15	eulertigs	188704463	mask	xz	max	11894013	0.5042387577234991
+E._coli_pangenome	E. coli pangenome	15	eulertigs	188704463	superstring	xz	max	116654120	4.945473706151826
+E._coli_pangenome	E. coli pangenome	15	greedy-maxone	188704463	mask	geco3	basic	10113689	0.42876310773847465
+E._coli_pangenome	E. coli pangenome	15	greedy-maxone	188704463	superstring	geco3	basic	55026208	2.332799431458068
+E._coli_pangenome	E. coli pangenome	15	greedy-maxone	188704463	mask	geco3	max	10091944	0.427841242949299
+E._coli_pangenome	E. coli pangenome	15	greedy-maxone	188704463	superstring	geco3	max	51872637	2.199105889721326
+E._coli_pangenome	E. coli pangenome	15	greedy-maxone	188704463	mask	xz	basic	13516344	0.573016399723413
+E._coli_pangenome	E. coli pangenome	15	greedy-maxone	188704463	superstring	xz	basic	60208292	2.552490430499251
+E._coli_pangenome	E. coli pangenome	15	greedy-maxone	188704463	mask	xz	max	12533532	0.531350739701371
+E._coli_pangenome	E. coli pangenome	15	greedy-maxone	188704463	superstring	xz	max	60259460	2.554659663772764
+E._coli_pangenome	E. coli pangenome	15	greedy-minrun	188704463	mask	geco3	basic	9936486	0.4212507046004524
+E._coli_pangenome	E. coli pangenome	15	greedy-minrun	188704463	superstring	geco3	basic	55026208	2.332799431458068
+E._coli_pangenome	E. coli pangenome	15	greedy-minrun	188704463	mask	geco3	max	9861634	0.41807740392446363
+E._coli_pangenome	E. coli pangenome	15	greedy-minrun	188704463	superstring	geco3	max	51872637	2.199105889721326
+E._coli_pangenome	E. coli pangenome	15	greedy-minrun	188704463	mask	xz	basic	13235104	0.5610934172765166
+E._coli_pangenome	E. coli pangenome	15	greedy-minrun	188704463	superstring	xz	basic	60208292	2.552490430499251
+E._coli_pangenome	E. coli pangenome	15	greedy-minrun	188704463	mask	xz	max	12210482	0.517655250156961
+E._coli_pangenome	E. coli pangenome	15	greedy-minrun	188704463	superstring	xz	max	60259460	2.554659663772764
+E._coli_pangenome	E. coli pangenome	15	joint-1	188704463	mask	geco3	basic	7846427	0.3326440456259903
+E._coli_pangenome	E. coli pangenome	15	joint-1	188704463	superstring	geco3	basic	55062040	2.3343185052279343
+E._coli_pangenome	E. coli pangenome	15	joint-1	188704463	mask	geco3	max	7823324	0.33166460933147085
+E._coli_pangenome	E. coli pangenome	15	joint-1	188704463	superstring	geco3	max	52777029	2.2374469860842665
+E._coli_pangenome	E. coli pangenome	15	joint-1	188704463	mask	xz	basic	11070208	0.4693140935410733
+E._coli_pangenome	E. coli pangenome	15	joint-1	188704463	superstring	xz	basic	59495276	2.5222625921677326
+E._coli_pangenome	E. coli pangenome	15	joint-1	188704463	mask	xz	max	9288436	0.39377705656066014
+E._coli_pangenome	E. coli pangenome	15	joint-1	188704463	superstring	xz	max	60175720	2.551109562257677
+E._coli_pangenome	E. coli pangenome	15	joint-250	188704463	mask	geco3	basic	87278	0.003700092668184536
+E._coli_pangenome	E. coli pangenome	15	joint-250	188704463	superstring	geco3	basic	59890138	2.539002503613282
+E._coli_pangenome	E. coli pangenome	15	joint-250	188704463	mask	geco3	max	107550	0.004559510603625734
+E._coli_pangenome	E. coli pangenome	15	joint-250	188704463	superstring	geco3	max	58628753	2.485526926832674
+E._coli_pangenome	E. coli pangenome	15	joint-250	188704463	mask	xz	basic	162960	0.006908580641253832
+E._coli_pangenome	E. coli pangenome	15	joint-250	188704463	superstring	xz	basic	65109092	2.7602565817428495
+E._coli_pangenome	E. coli pangenome	15	joint-250	188704463	mask	xz	max	77305	0.0032772939768785435
+E._coli_pangenome	E. coli pangenome	15	joint-250	188704463	superstring	xz	max	65097256	2.7597548024076146
+E._coli_pangenome	E. coli pangenome	15	joint-30	188704463	mask	geco3	basic	105898	0.00448947516413536
+E._coli_pangenome	E. coli pangenome	15	joint-30	188704463	superstring	geco3	basic	59884330	2.538756277322386
+E._coli_pangenome	E. coli pangenome	15	joint-30	188704463	mask	geco3	max	121326	0.005143534946494614
+E._coli_pangenome	E. coli pangenome	15	joint-30	188704463	superstring	geco3	max	58625956	2.485408349880946
+E._coli_pangenome	E. coli pangenome	15	joint-30	188704463	mask	xz	basic	193884	0.008219583020672914
+E._coli_pangenome	E. coli pangenome	15	joint-30	188704463	superstring	xz	basic	65089928	2.759444136729294
+E._coli_pangenome	E. coli pangenome	15	joint-30	188704463	mask	xz	max	95810	0.004061801124438694
+E._coli_pangenome	E. coli pangenome	15	joint-30	188704463	superstring	xz	max	65081576	2.7590900592531296
+E._coli_pangenome	E. coli pangenome	15	joint-400	188704463	mask	geco3	basic	87278	0.003700092668184536
+E._coli_pangenome	E. coli pangenome	15	joint-400	188704463	superstring	geco3	basic	59890138	2.539002503613282
+E._coli_pangenome	E. coli pangenome	15	joint-400	188704463	mask	geco3	max	107550	0.004559510603625734
+E._coli_pangenome	E. coli pangenome	15	joint-400	188704463	superstring	geco3	max	58628753	2.485526926832674
+E._coli_pangenome	E. coli pangenome	15	joint-400	188704463	mask	xz	basic	162960	0.006908580641253832
+E._coli_pangenome	E. coli pangenome	15	joint-400	188704463	superstring	xz	basic	65109092	2.7602565817428495
+E._coli_pangenome	E. coli pangenome	15	joint-400	188704463	mask	xz	max	77305	0.0032772939768785435
+E._coli_pangenome	E. coli pangenome	15	joint-400	188704463	superstring	xz	max	65097256	2.7597548024076146
+E._coli_pangenome	E. coli pangenome	15	joint-7	188704463	mask	geco3	basic	922419	0.0391053390189293
+E._coli_pangenome	E. coli pangenome	15	joint-7	188704463	superstring	geco3	basic	58784143	2.4921145823668196
+E._coli_pangenome	E. coli pangenome	15	joint-7	188704463	mask	geco3	max	915985	0.03883257387505456
+E._coli_pangenome	E. coli pangenome	15	joint-7	188704463	superstring	geco3	max	57682400	2.4454069218278107
+E._coli_pangenome	E. coli pangenome	15	joint-7	188704463	mask	xz	basic	1790836	0.07592129922226588
+E._coli_pangenome	E. coli pangenome	15	joint-7	188704463	superstring	xz	basic	64315496	2.726612607991153
+E._coli_pangenome	E. coli pangenome	15	joint-7	188704463	mask	xz	max	1031597	0.04373386759803344
+E._coli_pangenome	E. coli pangenome	15	joint-7	188704463	superstring	xz	max	63780428	2.7039287565763614
+E._coli_pangenome	E. coli pangenome	15	joint-70	188704463	mask	geco3	basic	90014	0.0038160835655487385
+E._coli_pangenome	E. coli pangenome	15	joint-70	188704463	superstring	geco3	basic	59890049	2.538998730517571
+E._coli_pangenome	E. coli pangenome	15	joint-70	188704463	mask	geco3	max	110715	0.004693688670203842
+E._coli_pangenome	E. coli pangenome	15	joint-70	188704463	superstring	geco3	max	58630481	2.4856001842415356
+E._coli_pangenome	E. coli pangenome	15	joint-70	188704463	mask	xz	basic	169840	0.007200253658017616
+E._coli_pangenome	E. coli pangenome	15	joint-70	188704463	superstring	xz	basic	63842280	2.706550930912535
+E._coli_pangenome	E. coli pangenome	15	joint-70	188704463	mask	xz	max	81295	0.003446447368868006
+E._coli_pangenome	E. coli pangenome	15	joint-70	188704463	superstring	xz	max	65097336	2.759758193954321
+E._coli_pangenome	E. coli pangenome	15	matchtigs	188704463	mask	geco3	basic	172162	0.007298693301175394
+E._coli_pangenome	E. coli pangenome	15	matchtigs	188704463	superstring	geco3	basic	63271409	2.6823492351635583
+E._coli_pangenome	E. coli pangenome	15	matchtigs	188704463	mask	geco3	max	189884	0.008050005685345132
+E._coli_pangenome	E. coli pangenome	15	matchtigs	188704463	superstring	geco3	max	62081033	2.6318840376340225
+E._coli_pangenome	E. coli pangenome	15	matchtigs	188704463	mask	xz	basic	168104	0.007126657094485359
+E._coli_pangenome	E. coli pangenome	15	matchtigs	188704463	superstring	xz	basic	66689448	2.8272547215801676
+E._coli_pangenome	E. coli pangenome	15	matchtigs	188704463	mask	xz	max	174186	0.0073844994328512515
+E._coli_pangenome	E. coli pangenome	15	matchtigs	188704463	superstring	xz	max	66614564	2.824080064285496
+E._coli_pangenome	E. coli pangenome	21	eulertigs	351305176	mask	geco3	basic	10436919	0.23767185257754359
+E._coli_pangenome	E. coli pangenome	21	eulertigs	351305176	superstring	geco3	basic	119582289	2.723154616998868
+E._coli_pangenome	E. coli pangenome	21	eulertigs	351305176	mask	geco3	max	6527929	0.1486554584666865
+E._coli_pangenome	E. coli pangenome	21	eulertigs	351305176	superstring	geco3	max	109412508	2.491566090674394
+E._coli_pangenome	E. coli pangenome	21	eulertigs	351305176	mask	xz	basic	6956308	0.15841060081619748
+E._coli_pangenome	E. coli pangenome	21	eulertigs	351305176	superstring	xz	basic	123818964	2.819633127181707
+E._coli_pangenome	E. coli pangenome	21	eulertigs	351305176	mask	xz	max	6983994	0.1590410725972338
+E._coli_pangenome	E. coli pangenome	21	eulertigs	351305176	superstring	xz	max	116325428	2.648988650255469
+E._coli_pangenome	E. coli pangenome	21	greedy-maxone	351305176	mask	geco3	basic	6913221	0.1574294140203616
+E._coli_pangenome	E. coli pangenome	21	greedy-maxone	351305176	superstring	geco3	basic	93710696	2.134000917766153
+E._coli_pangenome	E. coli pangenome	21	greedy-maxone	351305176	mask	geco3	max	6807371	0.15501897415824012
+E._coli_pangenome	E. coli pangenome	21	greedy-maxone	351305176	superstring	geco3	max	78281058	1.782633752028749
+E._coli_pangenome	E. coli pangenome	21	greedy-maxone	351305176	mask	xz	basic	10551080	0.24027155238953837
+E._coli_pangenome	E. coli pangenome	21	greedy-maxone	351305176	superstring	xz	basic	92861560	2.114664202954983
+E._coli_pangenome	E. coli pangenome	21	greedy-maxone	351305176	mask	xz	max	7381770	0.1680993165896309
+E._coli_pangenome	E. coli pangenome	21	greedy-maxone	351305176	superstring	xz	max	86117768	1.9610930639974402
+E._coli_pangenome	E. coli pangenome	21	greedy-minrun	351305176	mask	geco3	basic	6894932	0.15701293282396728
+E._coli_pangenome	E. coli pangenome	21	greedy-minrun	351305176	superstring	geco3	basic	93710696	2.134000917766153
+E._coli_pangenome	E. coli pangenome	21	greedy-minrun	351305176	mask	geco3	max	6718805	0.15300212940785138
+E._coli_pangenome	E. coli pangenome	21	greedy-minrun	351305176	superstring	geco3	max	78281058	1.782633752028749
+E._coli_pangenome	E. coli pangenome	21	greedy-minrun	351305176	mask	xz	basic	10449820	0.2379656370334834
+E._coli_pangenome	E. coli pangenome	21	greedy-minrun	351305176	superstring	xz	basic	92861560	2.114664202954983
+E._coli_pangenome	E. coli pangenome	21	greedy-minrun	351305176	mask	xz	max	7287402	0.16595034739824044
+E._coli_pangenome	E. coli pangenome	21	greedy-minrun	351305176	superstring	xz	max	86117768	1.9610930639974402
+E._coli_pangenome	E. coli pangenome	21	joint-1	351305176	mask	geco3	basic	6625103	0.15086832651734114
+E._coli_pangenome	E. coli pangenome	21	joint-1	351305176	superstring	geco3	basic	93587014	2.1311844036137972
+E._coli_pangenome	E. coli pangenome	21	joint-1	351305176	mask	geco3	max	6512669	0.14830795433540667
+E._coli_pangenome	E. coli pangenome	21	joint-1	351305176	superstring	geco3	max	77434784	1.7633622113213612
+E._coli_pangenome	E. coli pangenome	21	joint-1	351305176	mask	xz	basic	10202848	0.23234153544040012
+E._coli_pangenome	E. coli pangenome	21	joint-1	351305176	superstring	xz	basic	92483504	2.1060550272108713
+E._coli_pangenome	E. coli pangenome	21	joint-1	351305176	mask	xz	max	7013827	0.15972043634221889
+E._coli_pangenome	E. coli pangenome	21	joint-1	351305176	superstring	xz	max	85632272	1.9500372405557724
+E._coli_pangenome	E. coli pangenome	21	joint-250	351305176	mask	geco3	basic	1374228	0.031294227216282174
+E._coli_pangenome	E. coli pangenome	21	joint-250	351305176	superstring	geco3	basic	117469391	2.675039231417416
+E._coli_pangenome	E. coli pangenome	21	joint-250	351305176	mask	geco3	max	1403311	0.031956511793609324
+E._coli_pangenome	E. coli pangenome	21	joint-250	351305176	superstring	geco3	max	69079713	1.5730986667842322
+E._coli_pangenome	E. coli pangenome	21	joint-250	351305176	mask	xz	basic	2666644	0.06072541327999107
+E._coli_pangenome	E. coli pangenome	21	joint-250	351305176	superstring	xz	basic	106784484	2.4317201406676685
+E._coli_pangenome	E. coli pangenome	21	joint-250	351305176	mask	xz	max	1483498	0.033782548082923775
+E._coli_pangenome	E. coli pangenome	21	joint-250	351305176	superstring	xz	max	87421584	1.9907838534095494
+E._coli_pangenome	E. coli pangenome	21	joint-30	351305176	mask	geco3	basic	3700338	0.0842649241239759
+E._coli_pangenome	E. coli pangenome	21	joint-30	351305176	superstring	geco3	basic	97208808	2.213660706211741
+E._coli_pangenome	E. coli pangenome	21	joint-30	351305176	mask	geco3	max	3675640	0.08370249574688873
+E._coli_pangenome	E. coli pangenome	21	joint-30	351305176	superstring	geco3	max	70978527	1.6163388836605128
+E._coli_pangenome	E. coli pangenome	21	joint-30	351305176	mask	xz	basic	6467648	0.1472827260592369
+E._coli_pangenome	E. coli pangenome	21	joint-30	351305176	superstring	xz	basic	91172056	2.0761904401886753
+E._coli_pangenome	E. coli pangenome	21	joint-30	351305176	mask	xz	max	3882814	0.08842030838737201
+E._coli_pangenome	E. coli pangenome	21	joint-30	351305176	superstring	xz	max	82005040	1.8674371026061967
+E._coli_pangenome	E. coli pangenome	21	joint-400	351305176	mask	geco3	basic	1057790	0.02408823034249857
+E._coli_pangenome	E. coli pangenome	21	joint-400	351305176	superstring	geco3	basic	123399246	2.81007521506031
+E._coli_pangenome	E. coli pangenome	21	joint-400	351305176	mask	geco3	max	1114490	0.025379415417437517
+E._coli_pangenome	E. coli pangenome	21	joint-400	351305176	superstring	geco3	max	69681230	1.5867965463736862
+E._coli_pangenome	E. coli pangenome	21	joint-400	351305176	mask	xz	basic	2126592	0.04842722841066253
+E._coli_pangenome	E. coli pangenome	21	joint-400	351305176	superstring	xz	basic	112919912	2.571437478621152
+E._coli_pangenome	E. coli pangenome	21	joint-400	351305176	mask	xz	max	1172102	0.026691368760248496
+E._coli_pangenome	E. coli pangenome	21	joint-400	351305176	superstring	xz	max	89617548	2.040790836511899
+E._coli_pangenome	E. coli pangenome	21	joint-7	351305176	mask	geco3	basic	5432341	0.12370648361867574
+E._coli_pangenome	E. coli pangenome	21	joint-7	351305176	superstring	geco3	basic	93900304	2.1383187135278643
+E._coli_pangenome	E. coli pangenome	21	joint-7	351305176	mask	geco3	max	5403389	0.12304718220263285
+E._coli_pangenome	E. coli pangenome	21	joint-7	351305176	superstring	geco3	max	75282244	1.7143440892541817
+E._coli_pangenome	E. coli pangenome	21	joint-7	351305176	mask	xz	basic	8824796	0.20096022724128607
+E._coli_pangenome	E. coli pangenome	21	joint-7	351305176	superstring	xz	basic	91410464	2.0816195204593284
+E._coli_pangenome	E. coli pangenome	21	joint-7	351305176	mask	xz	max	5763721	0.13125274305665227
+E._coli_pangenome	E. coli pangenome	21	joint-7	351305176	superstring	xz	max	84064544	1.9143365880837464
+E._coli_pangenome	E. coli pangenome	21	joint-70	351305176	mask	geco3	basic	2638292	0.06007977519807451
+E._coli_pangenome	E. coli pangenome	21	joint-70	351305176	superstring	geco3	basic	102920581	2.343730477799735
+E._coli_pangenome	E. coli pangenome	21	joint-70	351305176	mask	geco3	max	2587532	0.05892385713098631
+E._coli_pangenome	E. coli pangenome	21	joint-70	351305176	superstring	geco3	max	69110628	1.5738026700750916
+E._coli_pangenome	E. coli pangenome	21	joint-70	351305176	mask	xz	basic	4790080	0.10908077255314906
+E._coli_pangenome	E. coli pangenome	21	joint-70	351305176	superstring	xz	basic	94221656	2.1456366131081426
+E._coli_pangenome	E. coli pangenome	21	joint-70	351305176	mask	xz	max	2758361	0.06281401330676666
+E._coli_pangenome	E. coli pangenome	21	joint-70	351305176	superstring	xz	max	82556680	1.879999172001952
+E._coli_pangenome	E. coli pangenome	21	matchtigs	351305176	mask	geco3	basic	6823500	0.15538626735177963
+E._coli_pangenome	E. coli pangenome	21	matchtigs	351305176	superstring	geco3	basic	103891832	2.365848022688968
+E._coli_pangenome	E. coli pangenome	21	matchtigs	351305176	mask	geco3	max	3173664	0.07227138606121761
+E._coli_pangenome	E. coli pangenome	21	matchtigs	351305176	superstring	geco3	max	80660865	1.8368272490240793
+E._coli_pangenome	E. coli pangenome	21	matchtigs	351305176	mask	xz	basic	3451984	0.07860935131795496
+E._coli_pangenome	E. coli pangenome	21	matchtigs	351305176	superstring	xz	basic	99679800	2.2699306884109216
+E._coli_pangenome	E. coli pangenome	21	matchtigs	351305176	mask	xz	max	3325890	0.07573791056241085
+E._coli_pangenome	E. coli pangenome	21	matchtigs	351305176	superstring	xz	max	90098924	2.051752838392566
+E._coli_pangenome	E. coli pangenome	31	eulertigs	453589061	mask	geco3	basic	13378481	0.23595773620299013
+E._coli_pangenome	E. coli pangenome	31	eulertigs	453589061	superstring	geco3	basic	144390506	2.5466311851819547
+E._coli_pangenome	E. coli pangenome	31	eulertigs	453589061	mask	geco3	max	10018942	0.17670517852281276
+E._coli_pangenome	E. coli pangenome	31	eulertigs	453589061	superstring	geco3	max	103195457	1.8200695893766274
+E._coli_pangenome	E. coli pangenome	31	eulertigs	453589061	mask	xz	basic	7317876	0.12906618133809009
+E._coli_pangenome	E. coli pangenome	31	eulertigs	453589061	superstring	xz	basic	147183900	2.5958985814254456
+E._coli_pangenome	E. coli pangenome	31	eulertigs	453589061	mask	xz	max	7336487	0.12939442558558528
+E._coli_pangenome	E. coli pangenome	31	eulertigs	453589061	superstring	xz	max	124916564	2.2031671350204807
+E._coli_pangenome	E. coli pangenome	31	greedy-maxone	453589061	mask	geco3	basic	6378942	0.11250609943611493
+E._coli_pangenome	E. coli pangenome	31	greedy-maxone	453589061	superstring	geco3	basic	111997756	1.9753167019166717
+E._coli_pangenome	E. coli pangenome	31	greedy-maxone	453589061	mask	geco3	max	6304743	0.11119744353799572
+E._coli_pangenome	E. coli pangenome	31	greedy-maxone	453589061	superstring	geco3	max	72496040	1.2786206058880243
+E._coli_pangenome	E. coli pangenome	31	greedy-maxone	453589061	mask	xz	basic	10561472	0.1862738396153694
+E._coli_pangenome	E. coli pangenome	31	greedy-maxone	453589061	superstring	xz	basic	106135400	1.8719216864006338
+E._coli_pangenome	E. coli pangenome	31	greedy-maxone	453589061	mask	xz	max	6589809	0.11622518383440468
+E._coli_pangenome	E. coli pangenome	31	greedy-maxone	453589061	superstring	xz	max	92107396	1.62450824183346
+E._coli_pangenome	E. coli pangenome	31	greedy-minrun	453589061	mask	geco3	basic	6239990	0.11005538777752844
+E._coli_pangenome	E. coli pangenome	31	greedy-minrun	453589061	superstring	geco3	basic	111997756	1.9753167019166717
+E._coli_pangenome	E. coli pangenome	31	greedy-minrun	453589061	mask	geco3	max	6235918	0.1099835694670776
+E._coli_pangenome	E. coli pangenome	31	greedy-minrun	453589061	superstring	geco3	max	72496040	1.2786206058880243
+E._coli_pangenome	E. coli pangenome	31	greedy-minrun	453589061	mask	xz	basic	10514972	0.18545371401714647
+E._coli_pangenome	E. coli pangenome	31	greedy-minrun	453589061	superstring	xz	basic	106135400	1.8719216864006338
+E._coli_pangenome	E. coli pangenome	31	greedy-minrun	453589061	mask	xz	max	6542211	0.11538569268979791
+E._coli_pangenome	E. coli pangenome	31	greedy-minrun	453589061	superstring	xz	max	92107396	1.62450824183346
+E._coli_pangenome	E. coli pangenome	31	joint-1	453589061	mask	geco3	basic	6248979	0.11021392775607523
+E._coli_pangenome	E. coli pangenome	31	joint-1	453589061	superstring	geco3	basic	111870685	1.9730755367577086
+E._coli_pangenome	E. coli pangenome	31	joint-1	453589061	mask	geco3	max	6231425	0.10990432593346866
+E._coli_pangenome	E. coli pangenome	31	joint-1	453589061	superstring	geco3	max	72084916	1.2713695668247167
+E._coli_pangenome	E. coli pangenome	31	joint-1	453589061	mask	xz	basic	10502216	0.1852287350465888
+E._coli_pangenome	E. coli pangenome	31	joint-1	453589061	superstring	xz	basic	105867156	1.8671906375625755
+E._coli_pangenome	E. coli pangenome	31	joint-1	453589061	mask	xz	max	6489604	0.11445785726300838
+E._coli_pangenome	E. coli pangenome	31	joint-1	453589061	superstring	xz	max	91832820	1.6196655148171661
+E._coli_pangenome	E. coli pangenome	31	joint-250	453589061	mask	geco3	basic	2624523	0.04628899990160918
+E._coli_pangenome	E. coli pangenome	31	joint-250	453589061	superstring	geco3	basic	130425680	2.3003320179275666
+E._coli_pangenome	E. coli pangenome	31	joint-250	453589061	mask	geco3	max	2202888	0.03885257717888395
+E._coli_pangenome	E. coli pangenome	31	joint-250	453589061	superstring	geco3	max	66325750	1.1697945246523482
+E._coli_pangenome	E. coli pangenome	31	joint-250	453589061	mask	xz	basic	4243416	0.07484159323674695
+E._coli_pangenome	E. coli pangenome	31	joint-250	453589061	superstring	xz	basic	113996196	2.0105634073040397
+E._coli_pangenome	E. coli pangenome	31	joint-250	453589061	mask	xz	max	2350141	0.041449694484585464
+E._coli_pangenome	E. coli pangenome	31	joint-250	453589061	superstring	xz	max	89529812	1.5790471102212054
+E._coli_pangenome	E. coli pangenome	31	joint-30	453589061	mask	geco3	basic	4310056	0.07601693022310342
+E._coli_pangenome	E. coli pangenome	31	joint-30	453589061	superstring	geco3	basic	113608326	2.0037225015882822
+E._coli_pangenome	E. coli pangenome	31	joint-30	453589061	mask	geco3	max	4275808	0.07541289449218
+E._coli_pangenome	E. coli pangenome	31	joint-30	453589061	superstring	geco3	max	68339780	1.2053161925789917
+E._coli_pangenome	E. coli pangenome	31	joint-30	453589061	mask	xz	basic	7774144	0.1371134300789498
+E._coli_pangenome	E. coli pangenome	31	joint-30	453589061	superstring	xz	basic	103620560	1.8275671775955813
+E._coli_pangenome	E. coli pangenome	31	joint-30	453589061	mask	xz	max	4454610	0.07856644496988872
+E._coli_pangenome	E. coli pangenome	31	joint-30	453589061	superstring	xz	max	88209332	1.5557576596848308
+E._coli_pangenome	E. coli pangenome	31	joint-400	453589061	mask	geco3	basic	1867618	0.03293938343014846
+E._coli_pangenome	E. coli pangenome	31	joint-400	453589061	superstring	geco3	basic	137471248	2.4245954732140245
+E._coli_pangenome	E. coli pangenome	31	joint-400	453589061	mask	geco3	max	1873683	0.033046352500110225
+E._coli_pangenome	E. coli pangenome	31	joint-400	453589061	superstring	geco3	max	67191547	1.185064681266641
+E._coli_pangenome	E. coli pangenome	31	joint-400	453589061	mask	xz	basic	3610420	0.0636773733835702
+E._coli_pangenome	E. coli pangenome	31	joint-400	453589061	superstring	xz	basic	120562812	2.1263795336545828
+E._coli_pangenome	E. coli pangenome	31	joint-400	453589061	mask	xz	max	1990590	0.0351082540767005
+E._coli_pangenome	E. coli pangenome	31	joint-400	453589061	superstring	xz	max	91341404	1.6109983569467077
+E._coli_pangenome	E. coli pangenome	31	joint-7	453589061	mask	geco3	basic	5516341	0.09729231102422904
+E._coli_pangenome	E. coli pangenome	31	joint-7	453589061	superstring	geco3	basic	111956371	1.9745867901342533
+E._coli_pangenome	E. coli pangenome	31	joint-7	453589061	mask	geco3	max	5516193	0.09728970073200244
+E._coli_pangenome	E. coli pangenome	31	joint-7	453589061	superstring	geco3	max	70975968	1.251810929364542
+E._coli_pangenome	E. coli pangenome	31	joint-7	453589061	mask	xz	basic	9589396	0.1691292286257318
+E._coli_pangenome	E. coli pangenome	31	joint-7	453589061	superstring	xz	basic	104915272	1.8504021550907728
+E._coli_pangenome	E. coli pangenome	31	joint-7	453589061	mask	xz	max	5750204	0.1014169783957819
+E._coli_pangenome	E. coli pangenome	31	joint-7	453589061	superstring	xz	max	90648580	1.598778944098037
+E._coli_pangenome	E. coli pangenome	31	joint-70	453589061	mask	geco3	basic	3384824	0.05969851199740463
+E._coli_pangenome	E. coli pangenome	31	joint-70	453589061	superstring	geco3	basic	117776301	2.077233533636738
+E._coli_pangenome	E. coli pangenome	31	joint-70	453589061	mask	geco3	max	3355535	0.05918193869318202
+E._coli_pangenome	E. coli pangenome	31	joint-70	453589061	superstring	geco3	max	66643177	1.1753930194537914
+E._coli_pangenome	E. coli pangenome	31	joint-70	453589061	mask	xz	basic	6229920	0.10987778208346166
+E._coli_pangenome	E. coli pangenome	31	joint-70	453589061	superstring	xz	basic	104854988	1.849338919573283
+E._coli_pangenome	E. coli pangenome	31	joint-70	453589061	mask	xz	max	3500154	0.061732599852093874
+E._coli_pangenome	E. coli pangenome	31	joint-70	453589061	superstring	xz	max	87360740	1.5407909495418806
+E._coli_pangenome	E. coli pangenome	31	matchtigs	453589061	mask	geco3	basic	5508866	0.097160473629676
+E._coli_pangenome	E. coli pangenome	31	matchtigs	453589061	superstring	geco3	basic	121953106	2.150900301363308
+E._coli_pangenome	E. coli pangenome	31	matchtigs	453589061	mask	geco3	max	4914087	0.08667029119558066
+E._coli_pangenome	E. coli pangenome	31	matchtigs	453589061	superstring	geco3	max	76210138	1.3441265595247678
+E._coli_pangenome	E. coli pangenome	31	matchtigs	453589061	mask	xz	basic	3524684	0.06216523815154352
+E._coli_pangenome	E. coli pangenome	31	matchtigs	453589061	superstring	xz	basic	112433200	1.9829966754864046
+E._coli_pangenome	E. coli pangenome	31	matchtigs	453589061	mask	xz	max	3368010	0.059401961635931075
+E._coli_pangenome	E. coli pangenome	31	matchtigs	453589061	superstring	xz	max	95692328	1.687736080566546
+E._coli_pangenome	E. coli pangenome	63	eulertigs	760242982	mask	geco3	basic	15775875	0.16600876691815356
+E._coli_pangenome	E. coli pangenome	63	eulertigs	760242982	superstring	geco3	basic	198094060	2.084534178573976
+E._coli_pangenome	E. coli pangenome	63	eulertigs	760242982	mask	geco3	max	13216834	0.13908010268222376
+E._coli_pangenome	E. coli pangenome	63	eulertigs	760242982	superstring	geco3	max	105312035	1.1081934328201402
+E._coli_pangenome	E. coli pangenome	63	eulertigs	760242982	mask	xz	basic	8200488	0.08629333720044784
+E._coli_pangenome	E. coli pangenome	63	eulertigs	760242982	superstring	xz	basic	195215840	2.0542468092129
+E._coli_pangenome	E. coli pangenome	63	eulertigs	760242982	mask	xz	max	8143358	0.08569216098334204
+E._coli_pangenome	E. coli pangenome	63	eulertigs	760242982	superstring	xz	max	141917684	1.4933929005345294
+E._coli_pangenome	E. coli pangenome	63	greedy-maxone	760242982	mask	geco3	basic	7305253	0.07687282274708325
+E._coli_pangenome	E. coli pangenome	63	greedy-maxone	760242982	superstring	geco3	basic	152448205	1.6042050619021695
+E._coli_pangenome	E. coli pangenome	63	greedy-maxone	760242982	mask	geco3	max	6982386	0.073475308976939685
+E._coli_pangenome	E. coli pangenome	63	greedy-maxone	760242982	superstring	geco3	max	71680393	0.7542892964186547
+E._coli_pangenome	E. coli pangenome	63	greedy-maxone	760242982	mask	xz	basic	12955984	0.1363351907929878
+E._coli_pangenome	E. coli pangenome	63	greedy-maxone	760242982	superstring	xz	basic	138776164	1.4603348380531318
+E._coli_pangenome	E. coli pangenome	63	greedy-maxone	760242982	mask	xz	max	6892278	0.07252710686647286
+E._coli_pangenome	E. coli pangenome	63	greedy-maxone	760242982	superstring	xz	max	104233448	1.0968435141700525
+E._coli_pangenome	E. coli pangenome	63	greedy-minrun	760242982	mask	geco3	basic	7265760	0.07645723982493798
+E._coli_pangenome	E. coli pangenome	63	greedy-minrun	760242982	superstring	geco3	basic	152448205	1.6042050619021695
+E._coli_pangenome	E. coli pangenome	63	greedy-minrun	760242982	mask	geco3	max	6919675	0.07281540416771648
+E._coli_pangenome	E. coli pangenome	63	greedy-minrun	760242982	superstring	geco3	max	71680393	0.7542892964186547
+E._coli_pangenome	E. coli pangenome	63	greedy-minrun	760242982	mask	xz	basic	12891464	0.13565624996456724
+E._coli_pangenome	E. coli pangenome	63	greedy-minrun	760242982	superstring	xz	basic	138776164	1.4603348380531318
+E._coli_pangenome	E. coli pangenome	63	greedy-minrun	760242982	mask	xz	max	6835084	0.07192525718047339
+E._coli_pangenome	E. coli pangenome	63	greedy-minrun	760242982	superstring	xz	max	104233448	1.0968435141700525
+E._coli_pangenome	E. coli pangenome	63	joint-1	760242982	mask	geco3	basic	7318419	0.07701136792605077
+E._coli_pangenome	E. coli pangenome	63	joint-1	760242982	superstring	geco3	basic	152277900	1.60241295065319
+E._coli_pangenome	E. coli pangenome	63	joint-1	760242982	mask	geco3	max	6966226	0.07330525808129065
+E._coli_pangenome	E. coli pangenome	63	joint-1	760242982	superstring	geco3	max	71517335	0.7525734449989306
+E._coli_pangenome	E. coli pangenome	63	joint-1	760242982	mask	xz	basic	12976024	0.13654607074031497
+E._coli_pangenome	E. coli pangenome	63	joint-1	760242982	superstring	xz	basic	138650308	1.4590104614737502
+E._coli_pangenome	E. coli pangenome	63	joint-1	760242982	mask	xz	max	6892300	0.07252733837140506
+E._coli_pangenome	E. coli pangenome	63	joint-1	760242982	superstring	xz	max	104145128	1.0959141270968022
+E._coli_pangenome	E. coli pangenome	63	joint-250	760242982	mask	geco3	basic	4492692	0.04727637985614447
+E._coli_pangenome	E. coli pangenome	63	joint-250	760242982	superstring	geco3	basic	165404784	1.7405465138512781
+E._coli_pangenome	E. coli pangenome	63	joint-250	760242982	mask	geco3	max	3561439	0.03747684973697001
+E._coli_pangenome	E. coli pangenome	63	joint-250	760242982	superstring	geco3	max	69387929	0.730165809014992
+E._coli_pangenome	E. coli pangenome	63	joint-250	760242982	mask	xz	basic	7112668	0.0748462601394984
+E._coli_pangenome	E. coli pangenome	63	joint-250	760242982	superstring	xz	basic	144387072	1.5193781506029083
+E._coli_pangenome	E. coli pangenome	63	joint-250	760242982	mask	xz	max	3612205	0.03801105789096255
+E._coli_pangenome	E. coli pangenome	63	joint-250	760242982	superstring	xz	max	100942596	1.062214038300718
+E._coli_pangenome	E. coli pangenome	63	joint-30	760242982	mask	geco3	basic	5895236	0.062035282293470745
+E._coli_pangenome	E. coli pangenome	63	joint-30	760242982	superstring	geco3	basic	152829697	1.6082194837018569
+E._coli_pangenome	E. coli pangenome	63	joint-30	760242982	mask	geco3	max	5638454	0.059333177770788025
+E._coli_pangenome	E. coli pangenome	63	joint-30	760242982	superstring	geco3	max	70469843	0.7415507375245984
+E._coli_pangenome	E. coli pangenome	63	joint-30	760242982	mask	xz	basic	10881532	0.11450583308377058
+E._coli_pangenome	E. coli pangenome	63	joint-30	760242982	superstring	xz	basic	137340444	1.4452268261780548
+E._coli_pangenome	E. coli pangenome	63	joint-30	760242982	mask	xz	max	5612431	0.05905933900485516
+E._coli_pangenome	E. coli pangenome	63	joint-30	760242982	superstring	xz	max	102086908	1.0742555779357394
+E._coli_pangenome	E. coli pangenome	63	joint-400	760242982	mask	geco3	basic	3231959	0.03400974768879879
+E._coli_pangenome	E. coli pangenome	63	joint-400	760242982	superstring	geco3	basic	172783260	1.8181898586733682
+E._coli_pangenome	E. coli pangenome	63	joint-400	760242982	mask	geco3	max	3165532	0.03331073959193746
+E._coli_pangenome	E. coli pangenome	63	joint-400	760242982	superstring	geco3	max	69895353	0.735505407138372
+E._coli_pangenome	E. coli pangenome	63	joint-400	760242982	mask	xz	basic	6257404	0.0658463585790786
+E._coli_pangenome	E. coli pangenome	63	joint-400	760242982	superstring	xz	basic	150567540	1.5844149153881963
+E._coli_pangenome	E. coli pangenome	63	joint-400	760242982	mask	xz	max	3170788	0.033366048224829255
+E._coli_pangenome	E. coli pangenome	63	joint-400	760242982	superstring	xz	max	102066272	1.07403842630934
+E._coli_pangenome	E. coli pangenome	63	joint-7	760242982	mask	geco3	basic	6610804	0.0695651696262551
+E._coli_pangenome	E. coli pangenome	63	joint-7	760242982	superstring	geco3	basic	152287095	1.6025097091918963
+E._coli_pangenome	E. coli pangenome	63	joint-7	760242982	mask	geco3	max	6499058	0.06838927189202254
+E._coli_pangenome	E. coli pangenome	63	joint-7	760242982	superstring	geco3	max	71247237	0.7497312168545609
+E._coli_pangenome	E. coli pangenome	63	joint-7	760242982	mask	xz	basic	12289640	0.1293232852230394
+E._coli_pangenome	E. coli pangenome	63	joint-7	760242982	superstring	xz	basic	138261396	1.4549179593742043
+E._coli_pangenome	E. coli pangenome	63	joint-7	760242982	mask	xz	max	6421626	0.06757445871430616
+E._coli_pangenome	E. coli pangenome	63	joint-7	760242982	superstring	xz	max	103679856	1.091018092423509
+E._coli_pangenome	E. coli pangenome	63	joint-70	760242982	mask	geco3	basic	5042095	0.05305772095900781
+E._coli_pangenome	E. coli pangenome	63	joint-70	760242982	superstring	geco3	basic	154907996	1.630089323205354
+E._coli_pangenome	E. coli pangenome	63	joint-70	760242982	mask	geco3	max	4829965	0.05082548726507021
+E._coli_pangenome	E. coli pangenome	63	joint-70	760242982	superstring	geco3	max	69724499	0.733707518789039
+E._coli_pangenome	E. coli pangenome	63	joint-70	760242982	mask	xz	basic	9447716	0.09941785690827988
+E._coli_pangenome	E. coli pangenome	63	joint-70	760242982	superstring	xz	basic	137489560	1.4467959666084758
+E._coli_pangenome	E. coli pangenome	63	joint-70	760242982	mask	xz	max	4835880	0.050887730522976404
+E._coli_pangenome	E. coli pangenome	63	joint-70	760242982	superstring	xz	max	100790840	1.0606171172784336
+E._coli_pangenome	E. coli pangenome	63	matchtigs	760242982	mask	geco3	basic	6163662	0.06485991606299366
+E._coli_pangenome	E. coli pangenome	63	matchtigs	760242982	superstring	geco3	basic	163970352	1.725452055537686
+E._coli_pangenome	E. coli pangenome	63	matchtigs	760242982	mask	geco3	max	5046540	0.053104495478262764
+E._coli_pangenome	E. coli pangenome	63	matchtigs	760242982	superstring	geco3	max	78933115	0.8306093380024125
+E._coli_pangenome	E. coli pangenome	63	matchtigs	760242982	mask	xz	basic	3818520	0.0401821006221403
+E._coli_pangenome	E. coli pangenome	63	matchtigs	760242982	superstring	xz	basic	147125916	1.5481988730808172
+E._coli_pangenome	E. coli pangenome	63	matchtigs	760242982	mask	xz	max	3611554	0.03800420744955986
+E._coli_pangenome	E. coli pangenome	63	matchtigs	760242982	superstring	xz	max	109635856	1.1536927913397035
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	eulertigs	3094561	mask	geco3	basic	78960	0.20412588409147533
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	eulertigs	3094561	superstring	geco3	basic	1022165	2.6424814375932484
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	eulertigs	3094561	mask	geco3	max	73221	0.18928953088984188
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	eulertigs	3094561	superstring	geco3	max	1014070	2.6215543981844274
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	eulertigs	3094561	mask	xz	basic	83460	0.21575919815443936
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	eulertigs	3094561	superstring	xz	basic	1086904	2.8098434640648544
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	eulertigs	3094561	mask	xz	max	80462	0.20800882580760244
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	eulertigs	3094561	superstring	xz	max	1088008	2.812697503781635
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-maxone	3094561	mask	geco3	basic	68880	0.17806726059043593
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-maxone	3094561	superstring	geco3	basic	805279	2.081791892291023
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-maxone	3094561	mask	geco3	max	69227	0.1789643183637356
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-maxone	3094561	superstring	geco3	max	799450	2.06672287280813
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-maxone	3094561	mask	xz	basic	101376	0.2620752992104534
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-maxone	3094561	superstring	xz	basic	860636	2.2248997515318005
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-maxone	3094561	mask	xz	max	75791	0.19593344581024577
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-maxone	3094561	superstring	xz	max	860696	2.2250548623859734
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-minrun	3094561	mask	geco3	basic	66577	0.17211358897110124
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-minrun	3094561	superstring	geco3	basic	805279	2.081791892291023
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-minrun	3094561	mask	geco3	max	67027	0.17327692037739764
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-minrun	3094561	superstring	geco3	max	799450	2.06672287280813
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-minrun	3094561	mask	xz	basic	98732	0.25524008090323635
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-minrun	3094561	superstring	xz	basic	860636	2.2248997515318005
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-minrun	3094561	mask	xz	max	72420	0.1872188009866343
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	greedy-minrun	3094561	superstring	xz	max	860696	2.2250548623859734
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-1	3094561	mask	geco3	basic	65597	0.16958011168627796
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-1	3094561	superstring	geco3	basic	802891	2.0756184802949433
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-1	3094561	mask	geco3	max	65880	0.17031171788179325
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-1	3094561	superstring	geco3	max	796510	2.05912244095366
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-1	3094561	mask	xz	basic	98244	0.2539785126226305
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-1	3094561	superstring	xz	basic	858952	2.220546306891349
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-1	3094561	mask	xz	max	71060	0.18370295495871627
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-1	3094561	superstring	xz	max	859448	2.2218285566191778
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-250	3094561	mask	geco3	basic	2767	0.007153195558271432
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-250	3094561	superstring	geco3	basic	846903	2.189397462192537
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-250	3094561	mask	geco3	max	3646	0.009425569571903736
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-250	3094561	superstring	geco3	max	796569	2.0592749666269303
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-250	3094561	mask	xz	basic	1944	0.005025591675200457
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-250	3094561	superstring	xz	basic	1019020	2.634351043653688
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-250	3094561	mask	xz	max	902	0.0023318331743985656
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-250	3094561	superstring	xz	max	1019172	2.6347439911509256
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-30	3094561	mask	geco3	basic	26068	0.06739049577629913
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-30	3094561	superstring	geco3	basic	816872	2.111761894498121
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-30	3094561	mask	geco3	max	26590	0.06873996020760295
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-30	3094561	superstring	geco3	max	791357	2.045801003761115
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-30	3094561	mask	xz	basic	46232	0.11951808350198946
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-30	3094561	superstring	xz	basic	905712	2.34142936591006
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-30	3094561	mask	xz	max	27189	0.07028848356842861
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-30	3094561	superstring	xz	max	906200	2.3426909341906654
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-400	3094561	mask	geco3	basic	2710	0.007005840246807221
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-400	3094561	superstring	geco3	basic	847176	2.1901032165790237
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-400	3094561	mask	geco3	max	3618	0.009353184506623072
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-400	3094561	superstring	geco3	max	796931	2.0602108021137733
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-400	3094561	mask	xz	basic	1692	0.004374126087674472
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-400	3094561	superstring	xz	basic	1021272	2.6401728710469756
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-400	3094561	mask	xz	max	683	0.00176567855666765
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-400	3094561	superstring	xz	max	1022400	2.643088955105425
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-7	3094561	mask	geco3	basic	51395	0.1328653725035635
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-7	3094561	superstring	geco3	basic	803210	2.076443153002962
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-7	3094561	mask	geco3	max	51667	0.13356854170914711
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-7	3094561	superstring	geco3	max	793268	2.0507412844665205
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-7	3094561	mask	xz	basic	80792	0.20886193550555313
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-7	3094561	superstring	xz	basic	862868	2.2306698753070306
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-7	3094561	mask	xz	max	53906	0.13935676175069744
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-7	3094561	superstring	xz	max	864528	2.234961275605813
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-70	3094561	mask	geco3	basic	9714	0.025112447290584997
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-70	3094561	superstring	geco3	basic	834307	2.1568345235398496
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-70	3094561	mask	geco3	max	10431	0.026966021997950597
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-70	3094561	superstring	geco3	max	793917	2.05241906687249
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-70	3094561	mask	xz	basic	17824	0.046078264412949044
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-70	3094561	superstring	xz	basic	967960	2.5023517067525893
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-70	3094561	mask	xz	max	9987	0.02581820167707148
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	joint-70	3094561	superstring	xz	max	968276	2.5031686239178996
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	matchtigs	3094561	mask	geco3	basic	35827	0.09261927620751377
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	matchtigs	3094561	superstring	geco3	basic	871625	2.2533083044735585
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	matchtigs	3094561	mask	geco3	max	32558	0.08416831983599612
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	matchtigs	3094561	superstring	geco3	max	860232	2.2238553384470365
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	matchtigs	3094561	mask	xz	basic	35720	0.0923426618509055
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	matchtigs	3094561	superstring	xz	basic	938652	2.4265852248509563
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	matchtigs	3094561	mask	xz	max	33126	0.08563670258883246
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	15	matchtigs	3094561	superstring	xz	max	939264	2.4281673555635193
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	eulertigs	3557050	mask	geco3	basic	72922	0.16400556641036815
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	eulertigs	3557050	superstring	geco3	basic	1004833	2.2599243755359075
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	eulertigs	3557050	mask	geco3	max	48819	0.10979660111609339
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	eulertigs	3557050	superstring	geco3	max	935928	2.104953261832136
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	eulertigs	3557050	mask	xz	basic	46584	0.10476996387455897
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	eulertigs	3557050	superstring	xz	basic	1077992	2.424462967908801
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	eulertigs	3557050	mask	xz	max	46317	0.10416946627120788
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	eulertigs	3557050	superstring	xz	max	1078792	2.42626221166416
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-maxone	3557050	mask	geco3	basic	61132	0.13748921156576377
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-maxone	3557050	superstring	geco3	basic	859187	1.9323585555446225
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-maxone	3557050	mask	geco3	max	59917	0.13475661011231216
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-maxone	3557050	superstring	geco3	max	792220	1.7817461098382086
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-maxone	3557050	mask	xz	basic	81552	0.18341490842130417
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-maxone	3557050	superstring	xz	basic	930916	2.0936809997048114
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-maxone	3557050	mask	xz	max	57644	0.1296445087923982
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-maxone	3557050	superstring	xz	max	931496	2.094985451427447
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-minrun	3557050	mask	geco3	basic	60698	0.13651312182848147
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-minrun	3557050	superstring	geco3	basic	859187	1.9323585555446225
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-minrun	3557050	mask	geco3	max	59745	0.13436977270490996
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-minrun	3557050	superstring	geco3	max	792220	1.7817461098382086
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-minrun	3557050	mask	xz	basic	81260	0.1827581844505981
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-minrun	3557050	superstring	xz	basic	930916	2.0936809997048114
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-minrun	3557050	mask	xz	max	57380	0.1290507583531297
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	greedy-minrun	3557050	superstring	xz	max	931496	2.094985451427447
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-1	3557050	mask	geco3	basic	60476	0.13601383168636932
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-1	3557050	superstring	geco3	basic	856225	1.9256968555404057
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-1	3557050	mask	geco3	max	58624	0.13184858239271308
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-1	3557050	superstring	geco3	max	788714	1.7738609240803476
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-1	3557050	mask	xz	basic	80952	0.18206547560478487
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-1	3557050	superstring	xz	basic	928472	2.0881843100321897
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-1	3557050	mask	xz	max	56621	0.1273437258402328
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-1	3557050	superstring	xz	max	928868	2.0890749356910923
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-250	3557050	mask	geco3	basic	14161	0.03184886352454984
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-250	3557050	superstring	geco3	basic	887167	1.9952871058883064
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-250	3557050	mask	geco3	max	14417	0.03242462152626474
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-250	3557050	superstring	geco3	max	714975	1.6080178799848188
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-250	3557050	mask	xz	basic	23784	0.05349151684682532
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-250	3557050	superstring	xz	basic	1066092	2.3976992170478346
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-250	3557050	mask	xz	max	13638	0.03067260791948384
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-250	3557050	superstring	xz	max	1064296	2.3936599148170536
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-30	3557050	mask	geco3	basic	50460	0.1134872998692737
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-30	3557050	superstring	geco3	basic	846455	1.903723591178083
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-30	3557050	mask	geco3	max	41400	0.09311086433983216
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-30	3557050	superstring	geco3	max	757630	1.7039513079658706
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-30	3557050	mask	xz	basic	62956	0.14159148732798246
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-30	3557050	superstring	xz	basic	930396	2.0925114912638283
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-30	3557050	mask	xz	max	39583	0.08902433196047287
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-30	3557050	superstring	xz	max	930592	2.092952305983891
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-400	3557050	mask	geco3	basic	10267	0.023091044545339535
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-400	3557050	superstring	geco3	basic	905839	2.037281455138387
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-400	3557050	mask	geco3	max	11147	0.02507021267623452
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-400	3557050	superstring	geco3	max	711121	1.5993500231933766
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-400	3557050	mask	xz	basic	17352	0.03902559705373835
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-400	3557050	superstring	xz	basic	1119016	2.516728187683614
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-400	3557050	mask	xz	max	9841	0.02213294724561083
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-400	3557050	superstring	xz	max	1115528	2.508883484910249
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-7	3557050	mask	geco3	basic	55110	0.12394540419729833
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-7	3557050	superstring	geco3	basic	850995	1.9139342994897457
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-7	3557050	mask	geco3	max	53362	0.12001405659183874
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-7	3557050	superstring	geco3	max	779868	1.7539657862554645
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-7	3557050	mask	xz	basic	75532	0.16987559916222714
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-7	3557050	superstring	xz	basic	926268	2.083227393486175
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-7	3557050	mask	xz	max	51388	0.11557442262549023
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-7	3557050	superstring	xz	max	927516	2.0860342137445356
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-70	3557050	mask	geco3	basic	32839	0.07385670710279586
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-70	3557050	superstring	geco3	basic	852109	1.9164397464190832
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-70	3557050	mask	geco3	max	30030	0.0675391124667913
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-70	3557050	superstring	geco3	max	738466	1.660850423806244
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-70	3557050	mask	xz	basic	48836	0.10983483504589477
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-70	3557050	superstring	xz	basic	960524	2.160271011090651
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-70	3557050	mask	xz	max	28888	0.06497069200601623
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	joint-70	3557050	superstring	xz	max	961316	2.1620522624084564
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	matchtigs	3557050	mask	geco3	basic	48897	0.1099720273822409
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	matchtigs	3557050	superstring	geco3	basic	920797	2.0709228152542134
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	matchtigs	3557050	mask	geco3	max	34905	0.07850325410101067
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	matchtigs	3557050	superstring	geco3	max	840631	1.890625096639069
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	matchtigs	3557050	mask	xz	basic	34376	0.07731350416777948
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	matchtigs	3557050	superstring	xz	basic	995604	2.2391678497631466
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	matchtigs	3557050	mask	xz	max	33120	0.07448869147186574
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	21	matchtigs	3557050	superstring	xz	max	995932	2.2399055397028436
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	eulertigs	4179237	mask	geco3	basic	87748	0.1679694164269698
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	eulertigs	4179237	superstring	geco3	basic	1073351	2.054635331760319
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	eulertigs	4179237	mask	geco3	max	81858	0.15669463110132303
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	eulertigs	4179237	superstring	geco3	max	972770	1.8621006657435317
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	eulertigs	4179237	mask	xz	basic	50200	0.09609409564473133
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	eulertigs	4179237	superstring	xz	basic	1199316	2.295760685503119
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	eulertigs	4179237	mask	xz	max	49333	0.09443446255859622
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	eulertigs	4179237	superstring	xz	max	1199928	2.2969321912109795
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-maxone	4179237	mask	geco3	basic	59507	0.11390978783926348
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-maxone	4179237	superstring	geco3	basic	904123	1.7306948612868809
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-maxone	4179237	mask	geco3	max	59256	0.11342931736103982
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-maxone	4179237	superstring	geco3	max	804598	1.540181616883656
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-maxone	4179237	mask	xz	basic	87768	0.16800770092722667
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-maxone	4179237	superstring	xz	basic	1030808	1.9731984570389285
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-maxone	4179237	mask	xz	max	55195	0.10565564958388338
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-maxone	4179237	superstring	xz	max	1031504	1.9745307576478672
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-minrun	4179237	mask	geco3	basic	59449	0.11379876278851857
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-minrun	4179237	superstring	geco3	basic	904123	1.7306948612868809
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-minrun	4179237	mask	geco3	max	59178	0.11328000781003805
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-minrun	4179237	superstring	geco3	max	804598	1.540181616883656
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-minrun	4179237	mask	xz	basic	87684	0.16784690602614782
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-minrun	4179237	superstring	xz	basic	1030808	1.9731984570389285
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-minrun	4179237	mask	xz	max	55093	0.10546039863257337
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	greedy-minrun	4179237	superstring	xz	max	1031504	1.9745307576478672
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-1	4179237	mask	geco3	basic	58782	0.11252197470495212
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-1	4179237	superstring	geco3	basic	901768	1.726186861381635
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-1	4179237	mask	geco3	max	58353	0.11170077217444237
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-1	4179237	superstring	geco3	max	801233	1.5337402497154384
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-1	4179237	mask	xz	basic	87512	0.1675176593239388
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-1	4179237	superstring	xz	basic	1029980	1.9716134787282942
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-1	4179237	mask	xz	max	54661	0.10463345342702508
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-1	4179237	superstring	xz	max	1030764	1.9731142311383634
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-250	4179237	mask	geco3	basic	17976	0.034410108830870326
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-250	4179237	superstring	geco3	basic	923306	1.7674154397082529
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-250	4179237	mask	geco3	max	18749	0.03588980476579816
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-250	4179237	superstring	geco3	max	729054	1.3955734025134252
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-250	4179237	mask	xz	basic	30476	0.05833792149141099
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-250	4179237	superstring	xz	basic	1138676	2.1796820807243042
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-250	4179237	mask	xz	max	17033	0.032604994643759135
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-250	4179237	superstring	xz	max	1135220	2.173066519079918
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-30	4179237	mask	geco3	basic	45238	0.0865957111310031
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-30	4179237	superstring	geco3	basic	891852	1.7072054061542812
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-30	4179237	mask	geco3	max	45064	0.08626263597876838
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-30	4179237	superstring	geco3	max	773344	1.480354428332253
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-30	4179237	mask	xz	basic	71960	0.13774763192420053
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-30	4179237	superstring	xz	basic	1027116	1.9661311382915112
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-30	4179237	mask	xz	max	41987	0.08037256561424969
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-30	4179237	superstring	xz	max	1027932	1.9676931459019913
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-400	4179237	mask	geco3	basic	13970	0.02674172342942025
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-400	4179237	superstring	geco3	basic	943201	1.8054989463387694
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-400	4179237	mask	geco3	max	14929	0.02857746521673693
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-400	4179237	superstring	geco3	max	724859	1.387543228584548
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-400	4179237	mask	xz	basic	23076	0.04417265639637092
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-400	4179237	superstring	xz	basic	1184756	2.2678895693161216
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-400	4179237	mask	xz	max	12889	0.024672446190536695
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-400	4179237	superstring	xz	max	1178624	2.256151541537367
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-7	4179237	mask	geco3	basic	54990	0.10526323345625051
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-7	4179237	superstring	geco3	basic	898312	1.7195712997372488
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-7	4179237	mask	geco3	max	54558	0.10443628825070222
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-7	4179237	superstring	geco3	max	793106	1.5181833430360614
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-7	4179237	mask	xz	basic	83492	0.1598224747723089
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-7	4179237	superstring	xz	basic	1027268	1.9664221004934632
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-7	4179237	mask	xz	max	50950	0.09752976440436377
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-7	4179237	superstring	xz	max	1028492	1.9687651119091834
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-70	4179237	mask	geco3	basic	34769	0.06655568947154708
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-70	4179237	superstring	geco3	basic	893111	1.709615415445451
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-70	4179237	mask	geco3	max	34944	0.06689067884879465
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-70	4179237	superstring	geco3	max	752922	1.441262125119968
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-70	4179237	mask	xz	basic	57784	0.11061157814213456
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-70	4179237	superstring	xz	basic	1046572	2.0033743001413895
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-70	4179237	mask	xz	max	32533	0.06227548234282956
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	joint-70	4179237	superstring	xz	max	1047996	2.006100156559678
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	matchtigs	4179237	mask	geco3	basic	54413	0.10415872562383995
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	matchtigs	4179237	superstring	geco3	basic	964370	1.8460211756356484
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	matchtigs	4179237	mask	geco3	max	52405	0.1003149617980507
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	matchtigs	4179237	superstring	geco3	max	850592	1.6282244821243685
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	matchtigs	4179237	mask	xz	basic	35244	0.06746494635264763
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	matchtigs	4179237	superstring	xz	basic	1092120	2.090563421026374
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	matchtigs	4179237	mask	xz	max	33369	0.06387577445356653
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	31	matchtigs	4179237	superstring	xz	max	1093452	2.093113168743481
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	eulertigs	6260453	mask	geco3	basic	107747	0.13768588311420915
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	eulertigs	6260453	superstring	geco3	basic	1233360	1.5760648630378664
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	eulertigs	6260453	mask	geco3	max	117819	0.15055651723605304
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	eulertigs	6260453	superstring	geco3	max	1015490	1.2976568947965905
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	eulertigs	6260453	mask	xz	basic	64356	0.08223813835835841
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	eulertigs	6260453	superstring	xz	basic	1460032	1.8657205796449554
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	eulertigs	6260453	mask	xz	max	61763	0.07892464011789563
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	eulertigs	6260453	superstring	xz	max	1458236	1.863425538056112
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-maxone	6260453	mask	geco3	basic	66722	0.08526156174321571
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-maxone	6260453	superstring	geco3	basic	1007770	1.2877917939804036
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-maxone	6260453	mask	geco3	max	69208	0.0884383286640759
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-maxone	6260453	superstring	geco3	max	810105	1.035203043613617
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-maxone	6260453	mask	xz	basic	116056	0.14830364511961036
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-maxone	6260453	superstring	xz	basic	1263680	1.6148096631346007
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-maxone	6260453	mask	xz	max	57008	0.07284840250378048
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-maxone	6260453	superstring	xz	max	1252664	1.600732726529534
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-minrun	6260453	mask	geco3	basic	66602	0.0851082182072128
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-minrun	6260453	superstring	geco3	basic	1007770	1.2877917939804036
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-minrun	6260453	mask	geco3	max	69048	0.08823387061607203
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-minrun	6260453	superstring	geco3	max	810105	1.035203043613617
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-minrun	6260453	mask	xz	basic	115792	0.14796628934040396
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-minrun	6260453	superstring	xz	basic	1263680	1.6148096631346007
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-minrun	6260453	mask	xz	max	56802	0.07258516276697549
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	greedy-minrun	6260453	superstring	xz	max	1252664	1.600732726529534
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-1	6260453	mask	geco3	basic	66293	0.08471335860200532
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-1	6260453	superstring	geco3	basic	1006562	1.2862481357179745
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-1	6260453	mask	geco3	max	68940	0.08809586143366942
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-1	6260453	superstring	geco3	max	807891	1.0323738553743635
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-1	6260453	mask	xz	basic	116068	0.14831897947321065
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-1	6260453	superstring	xz	basic	1265336	1.6169258039314407
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-1	6260453	mask	xz	max	56872	0.07267461316297719
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-1	6260453	superstring	xz	max	1253584	1.6019083603055562
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-250	6260453	mask	geco3	basic	28798	0.03679989291509736
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-250	6260453	superstring	geco3	basic	1017966	1.3008208830894505
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-250	6260453	mask	geco3	max	30459	0.03892242302593758
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-250	6260453	superstring	geco3	max	764160	0.9764916372665046
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-250	6260453	mask	xz	basic	52020	0.06647442285725969
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-250	6260453	superstring	xz	basic	1319900	1.686651109751962
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-250	6260453	mask	xz	max	25047	0.032006629552206525
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-250	6260453	superstring	xz	max	1300684	1.6620956981866968
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-30	6260453	mask	geco3	basic	56361	0.07202162527216481
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-30	6260453	superstring	geco3	basic	998744	1.2762578043473851
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-30	6260453	mask	geco3	max	58608	0.07489298298381922
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-30	6260453	superstring	geco3	max	795482	1.016516855888863
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-30	6260453	mask	xz	basic	100788	0.12879323588884062
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-30	6260453	superstring	xz	basic	1255028	1.603753594188791
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-30	6260453	mask	xz	max	48028	0.06137319455956302
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-30	6260453	superstring	xz	max	1242728	1.5880358817484932
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-400	6260453	mask	geco3	basic	23009	0.029402345165757175
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-400	6260453	superstring	geco3	basic	1041950	1.3314691444852313
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-400	6260453	mask	geco3	max	24470	0.031269302716592555
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-400	6260453	superstring	geco3	max	760060	0.9712523997864052
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-400	6260453	mask	xz	basic	40796	0.052131690789787896
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-400	6260453	superstring	xz	basic	1354120	1.7303795747687907
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-400	6260453	mask	xz	max	19653	0.025113837608875908
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-400	6260453	superstring	xz	max	1331020	1.7008609440882314
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-7	6260453	mask	geco3	basic	63618	0.08129507561194055
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-7	6260453	superstring	geco3	basic	1003785	1.2826995107223071
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-7	6260453	mask	geco3	max	66101	0.08446800894440067
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-7	6260453	superstring	geco3	max	804905	1.0285581570534912
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-7	6260453	mask	xz	basic	112064	0.14320241682191368
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-7	6260453	superstring	xz	basic	1263684	1.6148147745858008
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-7	6260453	mask	xz	max	54199	0.06925888589851245
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-7	6260453	superstring	xz	max	1252992	1.6011518655279418
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-70	6260453	mask	geco3	basic	47747	0.061014115112756215
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-70	6260453	superstring	geco3	basic	996430	1.273300829828129
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-70	6260453	mask	geco3	max	49862	0.06371679493480743
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-70	6260453	superstring	geco3	max	783591	1.0013217893337751
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-70	6260453	mask	xz	basic	86592	0.11065269557969687
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-70	6260453	superstring	xz	basic	1261796	1.6124021696193551
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-70	6260453	mask	xz	max	41160	0.05259683284899671
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	joint-70	6260453	superstring	xz	max	1248132	1.5949414523198242
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	matchtigs	6260453	mask	geco3	basic	57255	0.07316403461538645
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	matchtigs	6260453	superstring	geco3	basic	1068814	1.365797650745082
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	matchtigs	6260453	mask	geco3	max	62210	0.07949584478950644
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	matchtigs	6260453	superstring	geco3	max	863767	1.1037757171885165
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	matchtigs	6260453	mask	xz	basic	38548	0.04925905521533346
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	matchtigs	6260453	superstring	xz	basic	1311120	1.6754314743677494
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	matchtigs	6260453	mask	xz	max	35274	0.045075332408054176
+N._gonorrhoeae_pangenome	N. gonorrhoeae pangenome	63	matchtigs	6260453	superstring	xz	max	1296800	1.6571324790714026
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	eulertigs	6634375	mask	geco3	basic	196344	0.23675960433349033
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	eulertigs	6634375	superstring	geco3	basic	2410023	2.906104041450777
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	eulertigs	6634375	mask	geco3	max	188446	0.22723587376354215
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	eulertigs	6634375	superstring	geco3	max	2388723	2.880419632595384
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	eulertigs	6634375	mask	xz	basic	215312	0.25963199246349505
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	eulertigs	6634375	superstring	xz	basic	2528228	3.0486404521902966
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	eulertigs	6634375	mask	xz	max	208016	0.25083417804992936
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	eulertigs	6634375	superstring	xz	max	2530056	3.0508447291568537
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-maxone	6634375	mask	geco3	basic	183114	0.2208063306641545
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-maxone	6634375	superstring	geco3	basic	1782555	2.14947753179463
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-maxone	6634375	mask	geco3	max	182583	0.22016602920395667
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-maxone	6634375	superstring	geco3	max	1764140	2.1272719736222325
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-maxone	6634375	mask	xz	basic	266320	0.3211395195478097
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-maxone	6634375	superstring	xz	basic	1871024	2.256157060763071
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-maxone	6634375	mask	xz	max	208964	0.25197731512011307
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-maxone	6634375	superstring	xz	max	1871516	2.256750334432407
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-minrun	6634375	mask	geco3	basic	176659	0.21302262835609986
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-minrun	6634375	superstring	geco3	basic	1782555	2.14947753179463
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-minrun	6634375	mask	geco3	max	176697	0.21306845030617053
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-minrun	6634375	superstring	geco3	max	1764140	2.1272719736222325
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-minrun	6634375	mask	xz	basic	259656	0.3131037965143665
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-minrun	6634375	superstring	xz	basic	1871024	2.256157060763071
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-minrun	6634375	mask	xz	max	199755	0.24087272727272727
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	greedy-minrun	6634375	superstring	xz	max	1871516	2.256750334432407
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-1	6634375	mask	geco3	basic	165108	0.19909396137541216
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-1	6634375	superstring	geco3	basic	1777009	2.1427899387658975
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-1	6634375	mask	geco3	max	164992	0.1989540838436175
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-1	6634375	superstring	geco3	max	1756314	2.1178350635892604
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-1	6634375	mask	xz	basic	246484	0.2972204616109279
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-1	6634375	superstring	xz	basic	1866340	2.2505089024964673
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-1	6634375	mask	xz	max	185629	0.22383902025435704
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-1	6634375	superstring	xz	max	1868224	2.252780706547339
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-250	6634375	mask	geco3	basic	3947	0.004759453603391427
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-250	6634375	superstring	geco3	basic	1873486	2.259125840791333
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-250	6634375	mask	geco3	max	5334	0.006431954780970325
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-250	6634375	superstring	geco3	max	1744094	2.103099689119171
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-250	6634375	mask	xz	basic	1780	0.0021463966085727743
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-250	6634375	superstring	xz	basic	2150768	2.593483787093735
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-250	6634375	mask	xz	max	196	2.3634479510127178e-4
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-250	6634375	superstring	xz	max	2152748	2.5958713518605747
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-30	6634375	mask	geco3	basic	44952	0.054204955252001884
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-30	6634375	superstring	geco3	basic	1823379	2.1987047762600094
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-30	6634375	mask	geco3	max	45872	0.05531432878002826
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-30	6634375	superstring	geco3	max	1735721	2.0930031841733396
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-30	6634375	mask	xz	basic	84128	0.10144497409326425
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-30	6634375	superstring	xz	basic	1991276	2.4011618276024493
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-30	6634375	mask	xz	max	47260	0.05698803579839849
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-30	6634375	superstring	xz	max	1992992	2.4032310504003767
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-400	6634375	mask	geco3	basic	3952	0.004765482807348093
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-400	6634375	superstring	geco3	basic	1874051	2.2598071408384364
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-400	6634375	mask	geco3	max	5369	0.0064741592086669806
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-400	6634375	superstring	geco3	max	1743907	2.1028741968911917
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-400	6634375	mask	xz	basic	1768	0.0021319265190767782
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-400	6634375	superstring	xz	basic	2151108	2.5938937729627884
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-400	6634375	mask	xz	max	191	2.303155911446067e-4
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-400	6634375	superstring	xz	max	2152124	2.595118907206783
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-7	6634375	mask	geco3	basic	115594	0.13938796043334903
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-7	6634375	superstring	geco3	basic	1782085	2.1489107866227037
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-7	6634375	mask	geco3	max	115922	0.13978347621290627
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-7	6634375	superstring	geco3	max	1744752	2.103893132359868
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-7	6634375	mask	xz	basic	186036	0.22432979745642959
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-7	6634375	superstring	xz	basic	1881244	2.2684807536504947
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-7	6634375	mask	xz	max	124309	0.1498968629298163
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-7	6634375	superstring	xz	max	1880832	2.267983947244465
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-70	6634375	mask	geco3	basic	11757	0.014177070183702309
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-70	6634375	superstring	geco3	basic	1858530	2.2410912859161565
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-70	6634375	mask	geco3	max	13021	0.015701252943947246
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-70	6634375	superstring	geco3	max	1738856	2.0967834950541686
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-70	6634375	mask	xz	basic	21720	0.02619086198775318
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-70	6634375	superstring	xz	basic	2103300	2.5362449364107396
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-70	6634375	mask	xz	max	11920	0.01437362223268959
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	joint-70	6634375	superstring	xz	max	2102556	2.5353477908619877
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	matchtigs	6634375	mask	geco3	basic	73683	0.08884996702779087
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	matchtigs	6634375	superstring	geco3	basic	1956955	2.3597761658031087
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	matchtigs	6634375	mask	geco3	max	70173	0.08461746585021196
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	matchtigs	6634375	superstring	geco3	max	1905515	2.2977477154969383
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	matchtigs	6634375	mask	xz	basic	78664	0.09485626000942063
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	matchtigs	6634375	superstring	xz	basic	2069884	2.495950560527555
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	matchtigs	6634375	mask	xz	max	72541	0.08747289684408856
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	15	matchtigs	6634375	superstring	xz	max	2070756	2.4970020536975976
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	eulertigs	7908092	mask	geco3	basic	193893	0.19614642824084494
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	eulertigs	7908092	superstring	geco3	basic	2367695	2.3952123976301745
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	eulertigs	7908092	mask	geco3	max	127340	0.12881994797227952
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	eulertigs	7908092	superstring	geco3	max	2138628	2.163483176472909
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	eulertigs	7908092	mask	xz	basic	126464	0.1279337670831346
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	eulertigs	7908092	superstring	xz	basic	2449492	2.477960043965093
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	eulertigs	7908092	mask	xz	max	125825	0.12728734061262817
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	eulertigs	7908092	superstring	xz	max	2451392	2.4798821258022796
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-maxone	7908092	mask	geco3	basic	141848	0.14349656023222795
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-maxone	7908092	superstring	geco3	basic	1917290	1.9395727819049147
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-maxone	7908092	mask	geco3	max	141031	0.14267006504223775
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-maxone	7908092	superstring	geco3	max	1666888	1.686260604960084
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-maxone	7908092	mask	xz	basic	208168	0.21058733257023313
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-maxone	7908092	superstring	xz	basic	1976572	1.999543758469173
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-maxone	7908092	mask	xz	max	143429	0.14509593464517104
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-maxone	7908092	superstring	xz	max	1978068	2.0010571450104524
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-minrun	7908092	mask	geco3	basic	141576	0.1432213990429044
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-minrun	7908092	superstring	geco3	basic	1917290	1.9395727819049147
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-minrun	7908092	mask	geco3	max	140822	0.14245863604014722
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-minrun	7908092	superstring	geco3	max	1666888	1.686260604960084
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-minrun	7908092	mask	xz	basic	207848	0.21026361352397013
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-minrun	7908092	superstring	xz	basic	1976572	1.999543758469173
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-minrun	7908092	mask	xz	max	143229	0.1448936102412567
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	greedy-minrun	7908092	superstring	xz	max	1978068	2.0010571450104524
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-1	7908092	mask	geco3	basic	139920	0.14154615297849343
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-1	7908092	superstring	geco3	basic	1909939	1.932136348439042
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-1	7908092	mask	geco3	max	136562	0.13814912623677114
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-1	7908092	superstring	geco3	max	1655335	1.6745733357679704
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-1	7908092	mask	xz	basic	204212	0.20658535586080687
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-1	7908092	superstring	xz	basic	1971112	1.9940203022423109
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-1	7908092	mask	xz	max	139016	0.14063164667280048
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-1	7908092	superstring	xz	max	1972532	1.9954568055101027
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-250	7908092	mask	geco3	basic	27994	0.028319346815894403
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-250	7908092	superstring	geco3	basic	1967908	1.9907790652916026
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-250	7908092	mask	geco3	max	25077	0.025368445384803314
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-250	7908092	superstring	geco3	max	1407337	1.4236930981581903
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-250	7908092	mask	xz	basic	43772	0.04428071904069907
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-250	7908092	superstring	xz	basic	2060368	2.084313637221216
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-250	7908092	mask	xz	max	24615	0.024901076011761118
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-250	7908092	superstring	xz	max	2058300	2.0822216028847413
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-30	7908092	mask	geco3	basic	84330	0.08531008491049422
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-30	7908092	superstring	geco3	basic	1879809	1.901656176989342
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-30	7908092	mask	geco3	max	82109	0.08306327240502513
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-30	7908092	superstring	geco3	max	1533991	1.5518190734250437
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-30	7908092	mask	xz	basic	137536	0.13913444608383413
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-30	7908092	superstring	xz	basic	1939696	1.9622391848754415
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-30	7908092	mask	xz	max	81881	0.08283262258456275
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-30	7908092	superstring	xz	max	1941280	1.9638415941544434
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-400	7908092	mask	geco3	basic	18311	0.018523810800380167
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-400	7908092	superstring	geco3	basic	2011479	2.0348564483063676
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-400	7908092	mask	geco3	max	19153	0.019375596540859668
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-400	7908092	superstring	geco3	max	1400975	1.4172571588696743
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-400	7908092	mask	xz	basic	31856	0.03222623105548089
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-400	7908092	superstring	xz	basic	2103836	2.128286823167965
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-400	7908092	mask	xz	max	17400	0.01760222314055021
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-400	7908092	superstring	xz	max	2098628	2.1230182956900348
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-7	7908092	mask	geco3	basic	121802	0.12321758522789063
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-7	7908092	superstring	geco3	basic	1893612	1.9156195957254922
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-7	7908092	mask	geco3	max	119448	0.12083622699381848
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-7	7908092	superstring	geco3	max	1620716	1.6395519930724125
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-7	7908092	mask	xz	basic	184536	0.18668068100371113
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-7	7908092	superstring	xz	basic	1951984	1.9746699962519405
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-7	7908092	mask	xz	max	120552	0.12195305770342581
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-7	7908092	superstring	xz	max	1954608	1.977324492431297
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-70	7908092	mask	geco3	basic	72377	0.07321816691055187
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-70	7908092	superstring	geco3	basic	1893493	1.9154992127051633
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-70	7908092	mask	geco3	max	54254	0.054884541049851215
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-70	7908092	superstring	geco3	max	1467720	1.4847778705659975
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-70	7908092	mask	xz	basic	95580	0.09669083263067754
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-70	7908092	superstring	xz	basic	1963988	1.986813506974881
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-70	7908092	mask	xz	max	54437	0.05506966787943286
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	joint-70	7908092	superstring	xz	max	1963652	1.9864736019763047
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	matchtigs	7908092	mask	geco3	basic	105905	0.1071358299827569
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	matchtigs	7908092	superstring	geco3	basic	2063852	2.0878381283374043
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	matchtigs	7908092	mask	geco3	max	78343	0.07925350387931754
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	matchtigs	7908092	superstring	geco3	max	1764180	1.7846833344882684
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	matchtigs	7908092	mask	xz	basic	81712	0.0826616584632551
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	matchtigs	7908092	superstring	xz	basic	2107472	2.1319650808311286
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	matchtigs	7908092	mask	xz	max	77657	0.07855953117389125
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	21	matchtigs	7908092	superstring	xz	max	2108620	2.133126422909597
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	eulertigs	9621316	mask	geco3	basic	230730	0.1918490152490574
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	eulertigs	9621316	superstring	geco3	basic	2535030	2.10784470648298
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	eulertigs	9621316	mask	geco3	max	225656	0.18763004977697437
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	eulertigs	9621316	superstring	geco3	max	2178728	1.8115841949271805
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	eulertigs	9621316	mask	xz	basic	134280	0.11165208584771563
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	eulertigs	9621316	superstring	xz	basic	2720576	2.2621238092585254
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	eulertigs	9621316	mask	xz	max	132141	0.1098735349717232
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	eulertigs	9621316	superstring	xz	max	2723928	2.2649109539692907
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-maxone	9621316	mask	geco3	basic	128998	0.1072601710618381
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-maxone	9621316	superstring	geco3	basic	2015966	1.6762496939088167
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-maxone	9621316	mask	geco3	max	127323	0.1058674301935411
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-maxone	9621316	superstring	geco3	max	1648187	1.3704462050721544
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-maxone	9621316	mask	xz	basic	207292	0.17236062093792576
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-maxone	9621316	superstring	xz	basic	2155248	1.7920608781584557
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-maxone	9621316	mask	xz	max	125894	0.10467923514828949
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-maxone	9621316	superstring	xz	max	2158276	1.7945786210535024
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-minrun	9621316	mask	geco3	basic	128846	0.10713378502483444
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-minrun	9621316	superstring	geco3	basic	2015966	1.6762496939088167
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-minrun	9621316	mask	geco3	max	127103	0.10568450303471999
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-minrun	9621316	superstring	geco3	max	1648187	1.3704462050721544
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-minrun	9621316	mask	xz	basic	207020	0.17213445645065603
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-minrun	9621316	superstring	xz	basic	2155248	1.7920608781584557
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-minrun	9621316	mask	xz	max	125614	0.10444641876433536
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	greedy-minrun	9621316	superstring	xz	max	2158276	1.7945786210535024
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-1	9621316	mask	geco3	basic	126596	0.10526293908234591
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-1	9621316	superstring	geco3	basic	2010570	1.6717629895951864
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-1	9621316	mask	geco3	max	124693	0.10368061915854339
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-1	9621316	superstring	geco3	max	1638492	1.3623849377777426
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-1	9621316	mask	xz	basic	205672	0.171013611859334
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-1	9621316	superstring	xz	basic	2151164	1.7886650849010677
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-1	9621316	mask	xz	max	123275	0.10250157047123283
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-1	9621316	superstring	xz	max	2152944	1.7901451319133475
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-250	9621316	mask	geco3	basic	30966	0.025747829091155514
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-250	9621316	superstring	geco3	basic	2047002	1.7020557270959606
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-250	9621316	mask	geco3	max	32077	0.026671611243202074
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-250	9621316	superstring	geco3	max	1427389	1.186855519556784
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-250	9621316	mask	xz	basic	55612	0.046240659801632125
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-250	9621316	superstring	xz	basic	2170480	1.8047260894455603
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-250	9621316	mask	xz	max	30521	0.02537781733808556
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-250	9621316	superstring	xz	max	2163872	1.7992316227842429
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-30	9621316	mask	geco3	basic	87284	0.07257551877518627
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-30	9621316	superstring	geco3	basic	1983136	1.6489519728901951
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-30	9621316	mask	geco3	max	85883	0.07141060536833008
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-30	9621316	superstring	geco3	max	1546923	1.2862464968409726
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-30	9621316	mask	xz	basic	150940	0.12550466069298627
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-30	9621316	superstring	xz	basic	2112012	1.756110702527596
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-30	9621316	mask	xz	max	84038	0.06987651169548947
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-30	9621316	superstring	xz	max	2113804	1.7576007273849024
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-400	9621316	mask	geco3	basic	23877	0.01985341714168831
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-400	9621316	superstring	geco3	basic	2094180	1.7412836248180603
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-400	9621316	mask	geco3	max	25385	0.0211072996666984
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-400	9621316	superstring	geco3	max	1420216	1.1808912626921306
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-400	9621316	mask	xz	basic	42568	0.03539474225771194
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-400	9621316	superstring	xz	basic	2213884	1.8408159549067924
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-400	9621316	mask	xz	max	23092	0.019200699779531198
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-400	9621316	superstring	xz	max	2205836	1.8341241468422822
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-7	9621316	mask	geco3	basic	115210	0.09579562712626838
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-7	9621316	superstring	geco3	basic	2000872	1.663699227839518
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-7	9621316	mask	geco3	max	113276	0.09418753110281379
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-7	9621316	superstring	geco3	max	1613811	1.3418630050192717
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-7	9621316	mask	xz	basic	190976	0.15879407765008446
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-7	9621316	superstring	xz	basic	2138644	1.7782548665899758
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-7	9621316	mask	xz	max	111433	0.09265510040414429
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-7	9621316	superstring	xz	max	2141980	1.781028707507372
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-70	9621316	mask	geco3	basic	62143	0.05167110195736217
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-70	9621316	superstring	geco3	basic	1985737	1.6511146707997117
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-70	9621316	mask	geco3	max	61829	0.05141001501249933
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-70	9621316	superstring	geco3	max	1488605	1.2377558329858411
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-70	9621316	mask	xz	basic	110840	0.09216202856241287
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-70	9621316	superstring	xz	basic	2114692	1.7583390879168712
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-70	9621316	mask	xz	max	60766	0.05052614424055919
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	joint-70	9621316	superstring	xz	max	2111944	1.7560541614057785
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	matchtigs	9621316	mask	geco3	basic	112250	0.09333442535303903
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	matchtigs	9621316	superstring	geco3	basic	2144757	1.7833377471439458
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	matchtigs	9621316	mask	geco3	max	104156	0.08660436888259361
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	matchtigs	9621316	superstring	geco3	max	1693497	1.4081208849184457
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	matchtigs	9621316	mask	xz	basic	77512	0.06445022697518718
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	matchtigs	9621316	superstring	xz	basic	2228940	1.8533348244668402
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	matchtigs	9621316	mask	xz	max	72233	0.060060806650566304
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	31	matchtigs	9621316	superstring	xz	max	2230388	1.8545388177667173
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	eulertigs	14629087	mask	geco3	basic	227730	0.1245354546049251
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	eulertigs	14629087	superstring	geco3	basic	2772196	1.5159912576909276
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	eulertigs	14629087	mask	geco3	max	243662	0.13324796004015835
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	eulertigs	14629087	superstring	geco3	max	2088949	1.1423537230997396
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	eulertigs	14629087	mask	xz	basic	138164	0.07555577460165491
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	eulertigs	14629087	superstring	xz	basic	3028268	1.6560256972974459
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	eulertigs	14629087	mask	xz	max	133449	0.0729773498510194
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	eulertigs	14629087	superstring	xz	max	3022732	1.652998303995321
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-maxone	14629087	mask	geco3	basic	126561	0.06921060760661277
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-maxone	14629087	superstring	geco3	basic	2220951	1.2145397727144558
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-maxone	14629087	mask	geco3	max	129480	0.07080687947238266
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-maxone	14629087	superstring	geco3	max	1583788	0.8661035374251311
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-maxone	14629087	mask	xz	basic	227248	0.12427187014473288
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-maxone	14629087	superstring	xz	basic	2473208	1.3524879577242244
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-maxone	14629087	mask	xz	max	112011	0.06125385678545763
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-maxone	14629087	superstring	xz	max	2445356	1.3372569320286358
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-minrun	14629087	mask	geco3	basic	126204	0.06901538011223804
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-minrun	14629087	superstring	geco3	basic	2220951	1.2145397727144558
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-minrun	14629087	mask	geco3	max	128962	0.07052360820603501
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-minrun	14629087	superstring	geco3	max	1583788	0.8661035374251311
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-minrun	14629087	mask	xz	basic	226524	0.12387594659871802
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-minrun	14629087	superstring	xz	basic	2473208	1.3524879577242244
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-minrun	14629087	mask	xz	max	111371	0.06090386912047211
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	greedy-minrun	14629087	superstring	xz	max	2445356	1.3372569320286358
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-1	14629087	mask	geco3	basic	124853	0.06827657802568267
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-1	14629087	superstring	geco3	basic	2216308	1.2120007215761313
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-1	14629087	mask	geco3	max	127887	0.06993573830000464
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-1	14629087	superstring	geco3	max	1579884	0.8639686126687195
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-1	14629087	mask	xz	basic	225824	0.12349314759014011
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-1	14629087	superstring	xz	basic	2483656	1.358201506355113
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-1	14629087	mask	xz	max	110727	0.060551694032580435
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-1	14629087	superstring	xz	max	2456768	1.343497649579909
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-250	14629087	mask	geco3	basic	49586	0.027116388056206104
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-250	14629087	superstring	geco3	basic	2240687	1.2253325173334466
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-250	14629087	mask	geco3	max	53067	0.0290199928402914
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-250	14629087	superstring	geco3	max	1475335	0.8067953933147024
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-250	14629087	mask	xz	basic	94212	0.051520371708774444
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-250	14629087	superstring	xz	basic	2433300	1.330664039389471
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-250	14629087	mask	xz	max	46112	0.02521661126220659
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-250	14629087	superstring	xz	max	2392752	1.3084901333897323
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-30	14629087	mask	geco3	basic	102170	0.055872249580578744
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-30	14629087	superstring	geco3	basic	2197788	1.2018729535206127
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-30	14629087	mask	geco3	max	105562	0.057727184205001995
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-30	14629087	superstring	geco3	max	1549407	0.8473020906909638
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-30	14629087	mask	xz	basic	188716	0.10320042528969853
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-30	14629087	superstring	xz	basic	2450804	1.340236202026825
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-30	14629087	mask	xz	max	91562	0.050071204033443784
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-30	14629087	superstring	xz	max	2419408	1.3230671196363792
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-400	14629087	mask	geco3	basic	40335	0.022057425729985747
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-400	14629087	superstring	geco3	basic	2286146	1.2501920318062227
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-400	14629087	mask	geco3	max	43436	0.023753225337985892
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-400	14629087	superstring	geco3	max	1466992	0.8022329759881802
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-400	14629087	mask	xz	basic	75728	0.041412290459411444
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-400	14629087	superstring	xz	basic	2452260	1.3410324239646672
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-400	14629087	mask	xz	max	37369	0.020435451645068485
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-400	14629087	superstring	xz	max	2408496	1.317099829948376
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-7	14629087	mask	geco3	basic	119012	0.06508239372696327
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-7	14629087	superstring	geco3	basic	2209095	1.208056251220599
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-7	14629087	mask	geco3	max	122052	0.06674483513564448
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-7	14629087	superstring	geco3	max	1570961	0.8590890190208043
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-7	14629087	mask	xz	basic	216680	0.11849269882665951
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-7	14629087	superstring	xz	basic	2472472	1.352085471909491
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-7	14629087	mask	xz	max	105426	0.05765281182619257
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-7	14629087	superstring	xz	max	2445040	1.3370841256190493
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-70	14629087	mask	geco3	basic	82236	0.044971227527732936
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-70	14629087	superstring	geco3	basic	2194392	1.2000158314732834
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-70	14629087	mask	geco3	max	85875	0.04696123551661153
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-70	14629087	superstring	geco3	max	1518465	0.8303812808003671
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-70	14629087	mask	xz	basic	154776	0.08464014193093526
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-70	14629087	superstring	xz	basic	2423720	1.3254251615292192
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-70	14629087	mask	xz	max	75019	0.04102456974929468
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	joint-70	14629087	superstring	xz	max	2389896	1.3069283134347345
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	matchtigs	14629087	mask	geco3	basic	100857	0.055154228011631896
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	matchtigs	14629087	superstring	geco3	basic	2333751	1.2762250986681534
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	matchtigs	14629087	mask	geco3	max	110375	0.0603592008168384
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	matchtigs	14629087	superstring	geco3	max	1670373	0.913453040507586
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	matchtigs	14629087	mask	xz	basic	72164	0.03946329665002334
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	matchtigs	14629087	superstring	xz	basic	2533640	1.3855355429904819
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	matchtigs	14629087	mask	xz	max	66001	0.036093024807358105
+S._Pneumoniae_pangenome	S. Pneumoniae pangenome	63	matchtigs	14629087	superstring	xz	max	2501980	1.3682220906882296
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	eulertigs	5240017	mask	geco3	basic	232576	0.3550767106289922
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	eulertigs	5240017	superstring	geco3	basic	2386459	3.643437034650842
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	eulertigs	5240017	mask	geco3	max	226808	0.34627063232810124
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	eulertigs	5240017	superstring	geco3	max	2260049	3.4504452943568693
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	eulertigs	5240017	mask	xz	basic	260992	0.39845977598927634
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	eulertigs	5240017	superstring	xz	basic	2454724	3.747658070574962
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	eulertigs	5240017	mask	xz	max	248616	0.37956518079998597
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	eulertigs	5240017	superstring	xz	max	2455436	3.7487450899491357
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-maxone	5240017	mask	geco3	basic	328020	0.50079226842203
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-maxone	5240017	superstring	geco3	basic	1562202	2.3850334836699956
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-maxone	5240017	mask	geco3	max	325232	0.4965357936815854
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-maxone	5240017	superstring	geco3	max	1465172	2.2368965596867336
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-maxone	5240017	mask	xz	basic	417740	0.6377689232687603
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-maxone	5240017	superstring	xz	basic	1588892	2.4257814430754707
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-maxone	5240017	mask	xz	max	390745	0.5965553165190113
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-maxone	5240017	superstring	xz	max	1589668	2.426966172056312
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-minrun	5240017	mask	geco3	basic	306282	0.4676045898324376
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-minrun	5240017	superstring	geco3	basic	1562202	2.3850334836699956
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-minrun	5240017	mask	geco3	max	304910	0.4655099401395072
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-minrun	5240017	superstring	geco3	max	1465172	2.2368965596867336
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-minrun	5240017	mask	xz	basic	396340	0.6050972735393797
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-minrun	5240017	superstring	xz	basic	1588892	2.4257814430754707
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-minrun	5240017	mask	xz	max	360204	0.5499279868748518
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	greedy-minrun	5240017	superstring	xz	max	1589668	2.426966172056312
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-1	5240017	mask	geco3	basic	296307	0.4523756316057753
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-1	5240017	superstring	geco3	basic	1556973	2.377050303462756
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-1	5240017	mask	geco3	max	294053	0.4489344213959611
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-1	5240017	superstring	geco3	max	1466234	2.2385179284723695
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-1	5240017	mask	xz	basic	385520	0.5885782431621882
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-1	5240017	superstring	xz	basic	1583720	2.417885285486669
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-1	5240017	mask	xz	max	343568	0.5245295959917687
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-1	5240017	superstring	xz	max	1585620	2.420786039434605
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-250	5240017	mask	geco3	basic	32564	0.04971586924240894
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-250	5240017	superstring	geco3	basic	1644434	2.5105781145366515
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-250	5240017	mask	geco3	max	32830	0.05012197479511994
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-250	5240017	superstring	geco3	max	1523175	2.325450470866793
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-250	5240017	mask	xz	basic	61192	0.09342259767477853
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-250	5240017	superstring	xz	basic	1732608	2.645194471697325
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-250	5240017	mask	xz	max	33172	0.05064411050574836
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-250	5240017	superstring	xz	max	1733212	2.6461166061102475
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-30	5240017	mask	geco3	basic	52846	0.08068065428032008
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-30	5240017	superstring	geco3	basic	1626206	2.482749197187719
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-30	5240017	mask	geco3	max	52512	0.08017073227052508
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-30	5240017	superstring	geco3	max	1513060	2.310007772875546
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-30	5240017	mask	xz	basic	92760	0.14161786116342753
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-30	5240017	superstring	xz	basic	1704860	2.6028312503566307
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-30	5240017	mask	xz	max	53631	0.08187912367459876
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-30	5240017	superstring	xz	max	1705084	2.603173233979966
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-400	5240017	mask	geco3	basic	31822	0.04858304849010986
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-400	5240017	superstring	geco3	basic	1644969	2.511394905779886
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-400	5240017	mask	geco3	max	31984	0.04883037593198648
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-400	5240017	superstring	geco3	max	1523117	2.325361921535751
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-400	5240017	mask	xz	basic	60452	0.0922928303476878
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-400	5240017	superstring	xz	basic	1733152	2.646025003353997
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-400	5240017	mask	xz	max	32592	0.04975861719532589
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-400	5240017	superstring	xz	max	1734004	2.647325762492755
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-7	5240017	mask	geco3	basic	148798	0.22717178207627953
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-7	5240017	superstring	geco3	basic	1571251	2.3988487060251904
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-7	5240017	mask	geco3	max	147817	0.2256740770115822
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-7	5240017	superstring	geco3	max	1478569	2.2573499284448886
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-7	5240017	mask	xz	basic	226892	0.34639887618685206
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-7	5240017	superstring	xz	basic	1607960	2.454892799011912
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-7	5240017	mask	xz	max	159670	0.24377020150888823
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-7	5240017	superstring	xz	max	1608220	2.4552897442889976
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-70	5240017	mask	geco3	basic	36599	0.055876154600261796
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-70	5240017	superstring	geco3	basic	1643200	2.5086941511830974
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-70	5240017	mask	geco3	max	36461	0.05566546826088541
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-70	5240017	superstring	geco3	max	1523623	2.3261344381134643
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-70	5240017	mask	xz	basic	65820	0.10048822360690815
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-70	5240017	superstring	xz	basic	1730064	2.6413105148322993
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-70	5240017	mask	xz	max	36955	0.05641966428734869
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	joint-70	5240017	superstring	xz	max	1731636	2.643710507046065
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	matchtigs	5240017	mask	geco3	basic	75584	0.11539504547408912
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	matchtigs	5240017	superstring	geco3	basic	1732563	2.6451257696301367
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	matchtigs	5240017	mask	geco3	max	71739	0.10952483551102983
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	matchtigs	5240017	superstring	geco3	max	1637511	2.5000086831779362
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	matchtigs	5240017	mask	xz	basic	80688	0.12318738660580682
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	matchtigs	5240017	superstring	xz	basic	1807116	2.7589467744093197
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	matchtigs	5240017	mask	xz	max	74866	0.11429886582429026
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	15	matchtigs	5240017	superstring	xz	max	1807848	2.7600643280355768
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	eulertigs	7995944	mask	geco3	basic	386164	0.38635988446142194
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	eulertigs	7995944	superstring	geco3	basic	2661387	2.662737007662885
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	eulertigs	7995944	mask	geco3	max	250446	0.2505730405315495
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	eulertigs	7995944	superstring	geco3	max	2416383	2.4176087276249056
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	eulertigs	7995944	mask	xz	basic	286744	0.286889452952647
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	eulertigs	7995944	superstring	xz	basic	2832672	2.8341088932088567
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	eulertigs	7995944	mask	xz	max	268717	0.26885330862747414
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	eulertigs	7995944	superstring	xz	max	2834784	2.8362219645360196
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-maxone	7995944	mask	geco3	basic	362767	0.36295101616519576
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-maxone	7995944	superstring	geco3	basic	1688708	1.6895646092568932
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-maxone	7995944	mask	geco3	max	358197	0.3583786979998859
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-maxone	7995944	superstring	geco3	max	1497542	1.498301638930938
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-maxone	7995944	mask	xz	basic	488596	0.48884384382882123
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-maxone	7995944	superstring	xz	basic	1906388	1.9073550289997028
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-maxone	7995944	mask	xz	max	409914	0.41012193181943246
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-maxone	7995944	superstring	xz	max	1907544	1.9085116153890023
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-minrun	7995944	mask	geco3	basic	343782	0.34395638588764504
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-minrun	7995944	superstring	geco3	basic	1688708	1.6895646092568932
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-minrun	7995944	mask	geco3	max	341761	0.3419343607208855
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-minrun	7995944	superstring	geco3	max	1497542	1.498301638930938
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-minrun	7995944	mask	xz	basic	468664	0.46890173317872164
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-minrun	7995944	superstring	xz	basic	1906388	1.9073550289997028
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-minrun	7995944	mask	xz	max	386982	0.3871782993977947
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	greedy-minrun	7995944	superstring	xz	max	1907544	1.9085116153890023
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-1	7995944	mask	geco3	basic	339857	0.34002939490321593
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-1	7995944	superstring	geco3	basic	1681180	1.682032790624847
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-1	7995944	mask	geco3	max	336591	0.33676173820126803
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-1	7995944	superstring	geco3	max	1497395	1.4981545643641325
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-1	7995944	mask	xz	basic	464260	0.46449549921810357
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-1	7995944	superstring	xz	basic	1897856	1.8988187010814483
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-1	7995944	mask	xz	max	378284	0.3784758872748483
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-1	7995944	superstring	xz	max	1897492	1.898454516439835
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-250	7995944	mask	geco3	basic	63916	0.06394842184987788
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-250	7995944	superstring	geco3	basic	1731529	1.732407330516572
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-250	7995944	mask	geco3	max	49344	0.04936903009825982
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-250	7995944	superstring	geco3	max	1515879	1.5166479405058364
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-250	7995944	mask	xz	basic	88660	0.08870497342152471
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-250	7995944	superstring	xz	basic	1967164	1.9681618580620375
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-250	7995944	mask	xz	max	48825	0.048849766831783714
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-250	7995944	superstring	xz	max	1965416	1.966412971376488
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-30	7995944	mask	geco3	basic	118067	0.11812689033339903
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-30	7995944	superstring	geco3	basic	1663175	1.6640186574593319
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-30	7995944	mask	geco3	max	116519	0.11657810509928533
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-30	7995944	superstring	geco3	max	1481256	1.4820073777405145
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-30	7995944	mask	xz	basic	198004	0.19810443895054794
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-30	7995944	superstring	xz	basic	1889204	1.8901623122923321
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-30	7995944	mask	xz	max	120291	0.12035201847336599
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-30	7995944	superstring	xz	max	1889544	1.8905024847597731
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-400	7995944	mask	geco3	basic	49943	0.04996833394531027
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-400	7995944	superstring	geco3	basic	1736346	1.737226773974405
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-400	7995944	mask	geco3	max	48621	0.04864566335131912
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-400	7995944	superstring	geco3	max	1516608	1.5173773102963202
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-400	7995944	mask	xz	basic	88280	0.08832478066379655
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-400	7995944	superstring	xz	basic	1969452	1.9704510186664639
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-400	7995944	mask	xz	max	48260	0.048284480231477356
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-400	7995944	superstring	xz	max	1967696	1.968694127922857
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-7	7995944	mask	geco3	basic	194409	0.194507615360988
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-7	7995944	superstring	geco3	basic	1668144	1.6689901780202563
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-7	7995944	mask	geco3	max	192334	0.19243156280234078
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-7	7995944	superstring	geco3	max	1490073	1.490828850227065
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-7	7995944	mask	xz	basic	302268	0.30242132761309987
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-7	7995944	superstring	xz	basic	1887456	1.8884134256067826
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-7	7995944	mask	xz	max	204592	0.20469578076084574
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-7	7995944	superstring	xz	max	1888148	1.8891057766287507
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-70	7995944	mask	geco3	basic	65239	0.06527209295112622
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-70	7995944	superstring	geco3	basic	1699106	1.6999678837170444
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-70	7995944	mask	geco3	max	65027	0.06505998541260419
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-70	7995944	superstring	geco3	max	1495955	1.4967138339137942
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-70	7995944	mask	xz	basic	112120	0.1121768736749532
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-70	7995944	superstring	xz	basic	1940492	1.9414763284985488
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-70	7995944	mask	xz	max	65370	0.06540315940181672
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	joint-70	7995944	superstring	xz	max	1942476	1.9434613348967926
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	matchtigs	7995944	mask	geco3	basic	145438	0.1455117744696561
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	matchtigs	7995944	superstring	geco3	basic	1854906	1.8558469143855936
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	matchtigs	7995944	mask	geco3	max	106188	0.10624186462536506
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	matchtigs	7995944	superstring	geco3	max	1676977	1.6778276586229217
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	matchtigs	7995944	mask	xz	basic	117612	0.11767165953138241
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	matchtigs	7995944	superstring	xz	basic	2077804	2.078857980996365
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	matchtigs	7995944	mask	xz	max	110646	0.11070212597787078
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	21	matchtigs	7995944	superstring	xz	max	2079232	2.0802867053596175
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	eulertigs	12675558	mask	geco3	basic	553271	0.3491892033471031
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	eulertigs	12675558	superstring	geco3	basic	3049402	1.9245871463804591
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	eulertigs	12675558	mask	geco3	max	468698	0.29581214491701274
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	eulertigs	12675558	superstring	geco3	max	2737782	1.7279125700028353
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	eulertigs	12675558	mask	xz	basic	345748	0.21821398316350255
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	eulertigs	12675558	superstring	xz	basic	3385196	2.1365188025647472
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	eulertigs	12675558	mask	xz	max	324277	0.2046628637571616
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	eulertigs	12675558	superstring	xz	max	3387268	2.1378265161975514
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-maxone	12675558	mask	geco3	basic	421793	0.26620871444081595
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-maxone	12675558	superstring	geco3	basic	1848846	1.166873127005533
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-maxone	12675558	mask	geco3	max	417888	0.26374412866084473
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-maxone	12675558	superstring	geco3	max	1659912	1.0476300924977031
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-maxone	12675558	mask	xz	basic	595928	0.3761115684216821
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-maxone	12675558	superstring	xz	basic	2247004	1.4181649439022723
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-maxone	12675558	mask	xz	max	455157	0.28726593338139433
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-maxone	12675558	superstring	xz	max	2248064	1.4188339479808305
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-minrun	12675558	mask	geco3	basic	405326	0.2558157991940079
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-minrun	12675558	superstring	geco3	basic	1848846	1.166873127005533
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-minrun	12675558	mask	geco3	max	401062	0.25312463561761933
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-minrun	12675558	superstring	geco3	max	1659912	1.0476300924977031
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-minrun	12675558	mask	xz	basic	577236	0.36431437574582515
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-minrun	12675558	superstring	xz	basic	2247004	1.4181649439022723
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-minrun	12675558	mask	xz	max	434066	0.27395464562585725
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	greedy-minrun	12675558	superstring	xz	max	2248064	1.4188339479808305
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-1	12675558	mask	geco3	basic	402780	0.25420892713362203
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-1	12675558	superstring	geco3	basic	1839916	1.1612370832116425
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-1	12675558	mask	geco3	max	398934	0.25178157837311776
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-1	12675558	superstring	geco3	max	1653885	1.0438262362887694
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-1	12675558	mask	xz	basic	576468	0.3638296633568321
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-1	12675558	superstring	xz	basic	2238064	1.4125225887491502
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-1	12675558	mask	xz	max	429915	0.2713348004087867
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-1	12675558	superstring	xz	max	2238604	1.412863402147661
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-250	12675558	mask	geco3	basic	64388	0.040637579820943584
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-250	12675558	superstring	geco3	basic	1880434	1.186809448546565
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-250	12675558	mask	geco3	max	64379	0.04063189959763507
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-250	12675558	superstring	geco3	max	1687604	1.0651075084820723
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-250	12675558	mask	xz	basic	117328	0.07404991559345947
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-250	12675558	superstring	xz	basic	2305396	1.4550182327279004
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-250	12675558	mask	xz	max	64141	0.04048168924792108
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-250	12675558	superstring	xz	max	2276404	1.4367203400434128
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-30	12675558	mask	geco3	basic	168074	0.1060775391505447
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-30	12675558	superstring	geco3	basic	1815494	1.1458234816960327
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-30	12675558	mask	geco3	max	165637	0.10453946090578418
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-30	12675558	superstring	geco3	max	1630838	1.0292804466675156
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-30	12675558	mask	xz	basic	283564	0.1789674269172213
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-30	12675558	superstring	xz	basic	2205624	1.392048539401579
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-30	12675558	mask	xz	max	168858	0.10657234971430843
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-30	12675558	superstring	xz	max	2209012	1.3941868279092724
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-400	12675558	mask	geco3	basic	62829	0.03965363891672461
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-400	12675558	superstring	geco3	basic	1883709	1.1888764186949403
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-400	12675558	mask	geco3	max	63345	0.03997930505307932
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-400	12675558	superstring	geco3	max	1689809	1.066499163192658
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-400	12675558	mask	xz	basic	116016	0.07322186526226301
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-400	12675558	superstring	xz	basic	2306812	1.4559119211951064
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-400	12675558	mask	xz	max	63203	0.03988968375198946
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-400	12675558	superstring	xz	max	2278472	1.4380255291325241
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-7	12675558	mask	geco3	basic	245373	0.15486371487551082
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-7	12675558	superstring	geco3	basic	1832209	1.1563729186517864
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-7	12675558	mask	geco3	max	242288	0.15291666055253741
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-7	12675558	superstring	geco3	max	1646708	1.0392965737681923
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-7	12675558	mask	xz	basic	391044	0.24680191593932196
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-7	12675558	superstring	xz	basic	2226116	1.4049817767391384
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-7	12675558	mask	xz	max	249055	0.1571875573446155
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-7	12675558	superstring	xz	max	2227552	1.4058880879248077
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-70	12675558	mask	geco3	basic	103535	0.06534465780520274
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-70	12675558	superstring	geco3	basic	1828929	1.1543027928237952
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-70	12675558	mask	geco3	max	103317	0.06520707017395211
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-70	12675558	superstring	geco3	max	1641657	1.0361087062202705
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-70	12675558	mask	xz	basic	181816	0.11475060900671986
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-70	12675558	superstring	xz	basic	2239720	1.4135677498379164
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-70	12675558	mask	xz	max	104786	0.06613420884508595
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	joint-70	12675558	superstring	xz	max	2232452	1.4089806539483312
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	matchtigs	12675558	mask	geco3	basic	203807	0.12862991909310817
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	matchtigs	12675558	superstring	geco3	basic	2056021	1.297628711887871
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	matchtigs	12675558	mask	geco3	max	186540	0.11773209510776567
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	matchtigs	12675558	superstring	geco3	max	1850838	1.1681303497644837
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	matchtigs	12675558	mask	xz	basic	140840	0.08888918341898637
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	matchtigs	12675558	superstring	xz	basic	2451720	1.5473685655495404
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	matchtigs	12675558	mask	xz	max	131538	0.08301835706167729
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	31	matchtigs	12675558	superstring	xz	max	2452488	1.5478532779385334
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	eulertigs	30369141	mask	geco3	basic	799438	0.2105921929105601
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	eulertigs	30369141	superstring	geco3	basic	4045503	1.065687830946552
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	eulertigs	30369141	mask	geco3	max	770275	0.20290992096220303
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	eulertigs	30369141	superstring	geco3	max	3676615	0.9685133998357083
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	eulertigs	30369141	mask	xz	basic	518652	0.13662605735209962
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	eulertigs	30369141	superstring	xz	basic	4925808	1.2975824373827367
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	eulertigs	30369141	mask	xz	max	490199	0.1291308173649034
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	eulertigs	30369141	superstring	xz	max	4857544	1.2795999728803655
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-maxone	30369141	mask	geco3	basic	583481	0.15370365595786856
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-maxone	30369141	superstring	geco3	basic	2271820	0.5984548591611465
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-maxone	30369141	mask	geco3	max	591551	0.15582949810796426
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-maxone	30369141	superstring	geco3	max	2100370	0.5532905919202654
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-maxone	30369141	mask	xz	basic	983716	0.25913567986661196
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-maxone	30369141	superstring	xz	basic	3244224	0.8546106720634608
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-maxone	30369141	mask	xz	max	591451	0.1558031555782233
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-maxone	30369141	superstring	xz	max	3077396	0.8106639565472069
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-minrun	30369141	mask	geco3	basic	565479	0.14896147375390037
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-minrun	30369141	superstring	geco3	basic	2271820	0.5984548591611465
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-minrun	30369141	mask	geco3	max	575889	0.15170373109993462
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-minrun	30369141	superstring	geco3	max	2100370	0.5532905919202654
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-minrun	30369141	mask	xz	basic	964920	0.25418433797650053
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-minrun	30369141	superstring	xz	basic	3244224	0.8546106720634608
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-minrun	30369141	mask	xz	max	570032	0.15016084913300642
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	greedy-minrun	30369141	superstring	xz	max	3077396	0.8106639565472069
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-1	30369141	mask	geco3	basic	571001	0.15041610824619636
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-1	30369141	superstring	geco3	basic	2259680	0.5952568760505936
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-1	30369141	mask	geco3	max	582101	0.15334012904744326
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-1	30369141	superstring	geco3	max	2094125	0.5516455009379423
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-1	30369141	mask	xz	basic	973992	0.25657413227460074
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-1	30369141	superstring	xz	basic	3236580	0.8525970490900615
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-1	30369141	mask	xz	max	578272	0.15233147358366178
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-1	30369141	superstring	xz	max	3066948	0.8079116890398711
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-250	30369141	mask	geco3	basic	122577	0.032289882680580265
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-250	30369141	superstring	geco3	basic	2297373	0.6051861657858548
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-250	30369141	mask	geco3	max	131033	0.0345174069954761
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-250	30369141	superstring	geco3	max	2127308	0.560386742581886
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-250	30369141	mask	xz	basic	238668	0.06287118888216167
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-250	30369141	superstring	xz	basic	3413296	0.8991485139471017
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-250	30369141	mask	xz	max	121229	0.031934785379672086
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-250	30369141	superstring	xz	max	3046176	0.8024398187620783
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-30	30369141	mask	geco3	basic	290974	0.07664991248846979
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-30	30369141	superstring	geco3	basic	2240942	0.590320812827732
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-30	30369141	mask	geco3	max	295899	0.07794728207821222
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-30	30369141	superstring	geco3	max	2081279	0.5482615395674181
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-30	30369141	mask	xz	basic	549388	0.14472269729328202
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-30	30369141	superstring	xz	basic	3237788	0.8529152668493324
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-30	30369141	mask	xz	max	282975	0.07454277353449015
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-30	30369141	superstring	xz	max	3025468	0.7969848077033196
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-400	30369141	mask	geco3	basic	107937	0.028433336326503276
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-400	30369141	superstring	geco3	basic	2322032	0.6116819701946788
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-400	30369141	mask	geco3	max	117020	0.03082602830287495
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-400	30369141	superstring	geco3	max	2154674	0.5675956392707979
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-400	30369141	mask	xz	basic	211160	0.05562488580101755
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-400	30369141	superstring	xz	basic	3460972	0.9117075784264033
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-400	30369141	mask	xz	max	107720	0.028376173036965387
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-400	30369141	superstring	xz	max	3067280	0.8079991462386111
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-7	30369141	mask	geco3	basic	383048	0.1009045333221641
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-7	30369141	superstring	geco3	basic	2259182	0.5951256902524836
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-7	30369141	mask	geco3	max	392479	0.10338889730203432
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-7	30369141	superstring	geco3	max	2091930	0.5510672824101281
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-7	30369141	mask	xz	basic	697072	0.1836263989159259
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-7	30369141	superstring	xz	basic	3242692	0.8542071045078292
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-7	30369141	mask	xz	max	373848	0.0984810205859955
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-7	30369141	superstring	xz	max	3056756	0.8052268584086721
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-70	30369141	mask	geco3	basic	221537	0.05835845011223729
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-70	30369141	superstring	geco3	basic	2240664	0.5902475805950521
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-70	30369141	mask	geco3	max	226912	0.05977436108581405
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-70	30369141	superstring	geco3	max	2076473	0.5469955175880674
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-70	30369141	mask	xz	basic	427300	0.11256162958313506
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-70	30369141	superstring	xz	basic	3256120	0.8577443794014457
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-70	30369141	mask	xz	max	216954	0.05715117197420895
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	joint-70	30369141	superstring	xz	max	3005224	0.7916520259825591
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	matchtigs	30369141	mask	geco3	basic	251805	0.06633180701423198
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	matchtigs	30369141	superstring	geco3	basic	2534439	0.6676353473415663
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	matchtigs	30369141	mask	geco3	max	268729	0.07079001674759257
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	matchtigs	30369141	superstring	geco3	max	2352018	0.619581041162804
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	matchtigs	30369141	mask	xz	basic	186772	0.049200469647791484
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	matchtigs	30369141	superstring	xz	basic	3570392	0.9405315744689651
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	matchtigs	30369141	mask	xz	max	174283	0.04591055110844261
+SARS-CoV-2_pangenome	SARS-CoV-2 pangenome	63	matchtigs	30369141	superstring	xz	max	3298972	0.8690326802460432
