@@ -3,7 +3,11 @@
 set -euo pipefail
 
 # Almost all dependencies are installed through conda, except for the ones listed below in this file
-if conda env list | grep 'ms-pareto-optimization' > /dev/null 2>&1; then; else conda env create --file environment.yml; fi
+if conda env list | grep 'ms-pareto-optimization' > /dev/null 2>&1; then
+	echo "Environment ms-pareto-optimization already exists."
+else
+	conda env create --file environment.yml
+fi
 conda activate ms-pareto-optimization
 
 # Pareto optimization, matchtig count lowerbound
