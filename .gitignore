@@ -1,0 +1,11 @@
+# gitignore for repo
+.snakemake
+.temp
+data
+computed
+kmercamel-pareto
+kmercamel
+*.pdf
+*.png
+*.svg
+benchmarks
